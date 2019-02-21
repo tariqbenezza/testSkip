@@ -1,0 +1,29 @@
+<DOCTYPE !HTML>
+<html>
+    <head>
+        <!--
+         <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+        -->
+        <script src="https://github.com/video-dev/hls.js/releases/download/v0.11.0/hls.js"></script>
+         <script src="hls.js" async=false></script>
+         <script src="player.js"></script>
+         <script type="text/javascript" src="https://mssl.fwmrm.net/libs/adm/6.24.0/AdManager.js"></script>
+    </head>
+    <body>
+        <div id="videoBase">
+            <video id="video" style="width:480px;"></video>            
+        </div>
+        <p></p>
+        
+        <button onclick="playVideo()">Play</button>
+        <!--
+        <button onclick="pauseVideo()">Pause</button>
+        <button onclick="resumeVideo()">Resume</button>
+        <button onclick="skipAd()">Skip</button>
+        <button onclick="makeAdRequest()">New Ad Request</button>
+        <button onclick="anotheSlotToPlay()">slot.play</button>
+        -->
+        
+        <p id="demo"></p>
+    </body>
+</html>

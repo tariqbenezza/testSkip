@@ -1,0 +1,487 @@
+tv.freewheel.SDK._instanceQueue['Context_1'].requestComplete({
+	"version" : "1",
+	"networkId" : "514966",
+	"parameters" : [],
+	"rendererManifest" : {
+		"adRenderers" : {
+			"version" : "1",
+			"adRenderer" : [
+				{
+					"name" : "g_html5_video_mp4",
+					"url" : "class:\/\/VideoRenderer",
+					"contentType" : "video\/mp4-h264,video\/mp4,video\/m4v,video\/mp4-mpeg4,video\/mp4-mpeg4_simple,video\/m4v-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video\/mp4-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video\/mov-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video\/m4v-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video\/mp4-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video\/mov-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video\/m4v-mpeg4-640-480-less_eq_2500_kbps-aaclc,video\/mp4-mpeg4-640-480-less_eq_2500_kbps-aaclc,video\/mov-mpeg4-640-480-less_eq_2500_kbps-aaclc,video\/mp4-h264-baseline,",
+					"adUnit" : "video,slate,",
+					"slotType" : "preroll,midroll,postroll,",
+					"creativeApi" : "None,"
+				},
+				{
+					"name" : "g_html5_vast_mobile",
+					"url" : "class:\/\/VastTranslator",
+					"contentType" : "external\/vast-2,",
+					"adUnit" : "video,still-image,fixed-size-interactive,text-ad,linear-animation,generic-overlay,video-click-to-content,slate,logo,logo-click-to-content,app-interstitial,",
+					"slotType" : "preroll,midroll,postroll,overlay,display,",
+					"creativeApi" : "VPAID,MRAID-1.0,None,"
+				},
+				{
+					"name" : "g_html5_video_webm_ogg",
+					"url" : "class:\/\/VideoRenderer",
+					"contentType" : "video\/webm,video\/ogg,",
+					"adUnit" : "video,",
+					"slotType" : "preroll,midroll,postroll,",
+					"creativeApi" : "None,"
+				},
+				{
+					"name" : "g_html5_video_m3u8",
+					"url" : "class:\/\/VideoRenderer",
+					"contentType" : "application\/x-mpegurl,",
+					"adUnit" : "video,",
+					"slotType" : "preroll,midroll,postroll,",
+					"creativeApi" : "None,"
+				},
+				{
+					"name" : "g_html5_vpaid",
+					"url" : "class:\/\/VPAIDRenderer",
+					"contentType" : "text\/js_ref,",
+					"adUnit" : "video,fixed-size-interactive,app-interstitial,",
+					"slotType" : "preroll,midroll,postroll,overlay,",
+					"creativeApi" : "VPAID,"
+				},
+				{
+					"name" : "g_html5_html_mraid_only",
+					"url" : "class:\/\/HTMLRenderer",
+					"contentType" : "text\/html_doc_ref,text\/html_doc_lit_mobile,",
+					"adUnit" : "video,still-image,fixed-size-interactive,linear-animation,app-interstitial,",
+					"slotType" : "preroll,midroll,postroll,overlay,display,",
+					"creativeApi" : "MRAID-1.0,"
+				},
+				{
+					"name" : "g_html5_vast_desktop",
+					"url" : "class:\/\/VastTranslator",
+					"contentType" : "external\/vast-2,",
+					"adUnit" : "video,still-image,fixed-size-interactive,text-ad,linear-animation,generic-overlay,video-click-to-content,slate,logo,logo-click-to-content,app-interstitial,",
+					"slotType" : "preroll,midroll,postroll,overlay,display,",
+					"parameter" : [
+						{
+							"name" : "translator.vast.asyncLoad",
+							"value" : "true"
+						}
+					],
+					"creativeApi" : "VPAID,MRAID-1.0,None,"
+				},
+				{
+					"name" : "g_html5_video_mov",
+					"url" : "class:\/\/VideoRenderer",
+					"contentType" : "video\/quicktime,video\/quicktime-h264,video\/mov,video\/mov-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video\/mov-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video\/mov-mpeg4-640-480-less_eq_2500_kbps-aaclc,video\/mov-h263,",
+					"adUnit" : "video,",
+					"slotType" : "preroll,midroll,postroll,",
+					"creativeApi" : "None,"
+				},
+				{
+					"name" : "g_html5_html_wo_mraid_since_5.13",
+					"url" : "class:\/\/HTMLRenderer",
+					"contentType" : "text\/html_doc_ref,text\/html_doc_lit_mobile,text\/html_lit_nowrapper,",
+					"adUnit" : "video,still-image,fixed-size-interactive,text-ad,logo-text-ad,linear-animation,generic-overlay,text-ad-click-to-content,still-image-click-to-content,generic-overlay-click-to-content,logo-text-ad-click-to-content,slate,logo,logo-click-to-content,player-skin,generic-overlay-click-to-content2,variable-size-interactive,app-interstitial,",
+					"slotType" : "preroll,midroll,postroll,overlay,display,",
+					"creativeApi" : "None,"
+				},
+				{
+					"name" : "g_html5_vast3",
+					"url" : "class:\/\/VastTranslator",
+					"contentType" : "external\/vast-3,",
+					"adUnit" : "video,still-image,fixed-size-interactive,text-ad,linear-animation,generic-overlay,slate,logo,app-interstitial,",
+					"slotType" : "preroll,midroll,postroll,overlay,",
+					"parameter" : [
+						{
+							"name" : "translator.vast.asyncLoad",
+							"value" : "true"
+						}
+					],
+					"creativeApi" : "VPAID,MRAID-1.0,None,"
+				}
+			]
+		}
+	},
+	"visitor" : {
+		"httpHeaders" : [],
+		"state" : []
+	},
+	"errors" : {
+		"errors" : []
+	},
+	"eventCallbacks" : {
+		"eventCallbacks" : [
+			{
+				"url" : "https:\/\/7db95.v.fwmrm.net\/ad\/l\/1?s=d051&n=514966%3B514966&t=1537466695255149011",
+				"type" : "GENERIC",
+				"use" : "BASE",
+				"showBrowser" : false,
+				"trackingUrls" : []
+			}
+		]
+	},
+	"ads" : {
+		"ads" : [
+			{
+				"adId" : "27499614",
+				"noPreload" : false,
+				"noLoad" : false,
+				"adUnit" : "55840",
+				"isWrapper" : false,
+				"required" : false,
+				"creatives" : [
+					{
+						"creativeId" : "3924704",
+						"baseUnit" : "video",
+						"duration" : "20.000",
+						"creativeRenditions" : [
+							{
+								"creativeRenditionId" : "11525483",
+								"creativeApi" : "None",
+								"width" : "640",
+								"height" : "360",
+								"preference" : "0",
+								"bitrate" : "965",
+								"parameters" : [],
+								"asset" : {
+									"id" : "11441597",
+									"name" : "aldimedallones_360",
+									"url" : "https:\/\/publi.atresmediapublicidad.com\/mrm\/aldimedallones\/video_SD.mp4",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"bytes" : "2471799",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "11525484",
+								"creativeApi" : "None",
+								"width" : "426",
+								"height" : "238",
+								"preference" : "0",
+								"bitrate" : "627",
+								"parameters" : [],
+								"asset" : {
+									"id" : "11441598",
+									"name" : "aldimedallones_240",
+									"url" : "https:\/\/publi.atresmediapublicidad.com\/mrm\/aldimedallones\/video_LD.mp4",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"bytes" : "1605510",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							}
+						],
+						"parameters" : []
+					}
+				]
+			},
+			{
+				"adId" : "27500238",
+				"noPreload" : false,
+				"noLoad" : false,
+				"adUnit" : "55840",
+				"isWrapper" : false,
+				"required" : false,
+				"creatives" : [
+					{
+						"creativeId" : "3928846",
+						"baseUnit" : "video",
+						"duration" : "10.000",
+						"creativeRenditions" : [
+							{
+								"creativeRenditionId" : "11545213",
+								"creativeApi" : "None",
+								"width" : "1920",
+								"height" : "1080",
+								"preference" : "0",
+								"bitrate" : "3605",
+								"parameters" : [],
+								"asset" : {
+									"id" : "11461242",
+									"name" : "EXTERNASDOCTORMATEO_1080",
+									"url" : "https:\/\/publi.atresmediapublicidad.com\/mrm\/EXTERNASDOCTORMATEO\/video_FHD.mp4",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"bytes" : "4615182",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "11545214",
+								"creativeApi" : "None",
+								"width" : "1280",
+								"height" : "720",
+								"preference" : "0",
+								"bitrate" : "2494",
+								"parameters" : [],
+								"asset" : {
+									"id" : "11461243",
+									"name" : "EXTERNASDOCTORMATEO_720",
+									"url" : "https:\/\/publi.atresmediapublicidad.com\/mrm\/EXTERNASDOCTORMATEO\/video_HD.mp4",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"bytes" : "3192580",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "11545215",
+								"creativeApi" : "None",
+								"width" : "854",
+								"height" : "480",
+								"preference" : "0",
+								"bitrate" : "1335",
+								"parameters" : [],
+								"asset" : {
+									"id" : "11461244",
+									"name" : "EXTERNASDOCTORMATEO_480",
+									"url" : "https:\/\/publi.atresmediapublicidad.com\/mrm\/EXTERNASDOCTORMATEO\/video_FSD.mp4",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"bytes" : "1709371",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "11545216",
+								"creativeApi" : "None",
+								"width" : "640",
+								"height" : "360",
+								"preference" : "0",
+								"bitrate" : "929",
+								"parameters" : [],
+								"asset" : {
+									"id" : "11461245",
+									"name" : "EXTERNASDOCTORMATEO_360",
+									"url" : "https:\/\/publi.atresmediapublicidad.com\/mrm\/EXTERNASDOCTORMATEO\/video_SD.mp4",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"bytes" : "1190232",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "11545217",
+								"creativeApi" : "None",
+								"width" : "426",
+								"height" : "238",
+								"preference" : "0",
+								"bitrate" : "621",
+								"parameters" : [],
+								"asset" : {
+									"id" : "11461246",
+									"name" : "EXTERNASDOCTORMATEO_240",
+									"url" : "https:\/\/publi.atresmediapublicidad.com\/mrm\/EXTERNASDOCTORMATEO\/video_LD.mp4",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"bytes" : "795067",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							}
+						],
+						"parameters" : []
+					}
+				]
+			},
+			{
+				"adId" : "27499615",
+				"noPreload" : false,
+				"noLoad" : false,
+				"adUnit" : "55842",
+				"isWrapper" : false,
+				"required" : false,
+				"creatives" : [
+					{
+						"creativeId" : "3924704",
+						"baseUnit" : "video",
+						"duration" : "20.000",
+						"creativeRenditions" : [
+							{
+								"creativeRenditionId" : "11525483",
+								"creativeApi" : "None",
+								"width" : "640",
+								"height" : "360",
+								"preference" : "0",
+								"bitrate" : "965",
+								"parameters" : [],
+								"asset" : {
+									"id" : "11441597",
+									"name" : "aldimedallones_360",
+									"url" : "https:\/\/publi.atresmediapublicidad.com\/mrm\/aldimedallones\/video_SD.mp4",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"bytes" : "2471799",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "11525484",
+								"creativeApi" : "None",
+								"width" : "426",
+								"height" : "238",
+								"preference" : "0",
+								"bitrate" : "627",
+								"parameters" : [],
+								"asset" : {
+									"id" : "11441598",
+									"name" : "aldimedallones_240",
+									"url" : "https:\/\/publi.atresmediapublicidad.com\/mrm\/aldimedallones\/video_LD.mp4",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"bytes" : "1605510",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							}
+						],
+						"parameters" : []
+					}
+				]
+			},
+			{
+				"adId" : "27500239",
+				"noPreload" : false,
+				"noLoad" : false,
+				"adUnit" : "55842",
+				"isWrapper" : false,
+				"required" : false,
+				"creatives" : [
+					{
+						"creativeId" : "3928846",
+						"baseUnit" : "video",
+						"duration" : "10.000",
+						"creativeRenditions" : [
+							{
+								"creativeRenditionId" : "11545213",
+								"creativeApi" : "None",
+								"width" : "1920",
+								"height" : "1080",
+								"preference" : "0",
+								"bitrate" : "3605",
+								"parameters" : [],
+								"asset" : {
+									"id" : "11461242",
+									"name" : "EXTERNASDOCTORMATEO_1080",
+									"url" : "https:\/\/publi.atresmediapublicidad.com\/mrm\/EXTERNASDOCTORMATEO\/video_FHD.mp4",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"bytes" : "4615182",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "11545214",
+								"creativeApi" : "None",
+								"width" : "1280",
+								"height" : "720",
+								"preference" : "0",
+								"bitrate" : "2494",
+								"parameters" : [],
+								"asset" : {
+									"id" : "11461243",
+									"name" : "EXTERNASDOCTORMATEO_720",
+									"url" : "https:\/\/publi.atresmediapublicidad.com\/mrm\/EXTERNASDOCTORMATEO\/video_HD.mp4",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"bytes" : "3192580",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "11545215",
+								"creativeApi" : "None",
+								"width" : "854",
+								"height" : "480",
+								"preference" : "0",
+								"bitrate" : "1335",
+								"parameters" : [],
+								"asset" : {
+									"id" : "11461244",
+									"name" : "EXTERNASDOCTORMATEO_480",
+									"url" : "https:\/\/publi.atresmediapublicidad.com\/mrm\/EXTERNASDOCTORMATEO\/video_FSD.mp4",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"bytes" : "1709371",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "11545216",
+								"creativeApi" : "None",
+								"width" : "640",
+								"height" : "360",
+								"preference" : "0",
+								"bitrate" : "929",
+								"parameters" : [],
+								"asset" : {
+									"id" : "11461245",
+									"name" : "EXTERNASDOCTORMATEO_360",
+									"url" : "https:\/\/publi.atresmediapublicidad.com\/mrm\/EXTERNASDOCTORMATEO\/video_SD.mp4",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"bytes" : "1190232",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "11545217",
+								"creativeApi" : "None",
+								"width" : "426",
+								"height" : "238",
+								"preference" : "0",
+								"bitrate" : "621",
+								"parameters" : [],
+								"asset" : {
+									"id" : "11461246",
+									"name" : "EXTERNASDOCTORMATEO_240",
+									"url" : "https:\/\/publi.atresmediapublicidad.com\/mrm\/EXTERNASDOCTORMATEO\/video_LD.mp4",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"bytes" : "795067",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							}
+						],
+						"parameters" : []
+					}
+				]
+			}
+		]
+	},
+	"siteSection" : {
+		"customId" : "atresplayer_desktop",
+		"pageRandom" : "12.375168904488863",
+		"videoPlayer" : {
+			"videoAsset" : {
+				"eventCallbacks" : [
+					{
+						"url" : "https:\/\/7db95.v.fwmrm.net\/ad\/l\/1?s=d051&n=514966%3B514966&t=1537466695255149011&f=2&cn=videoView&et=i&uxnw=&uxss=&uxct=",
+						"name" : "videoView",
+						"type" : "IMPRESSION",
+						"use" : "OVERRIDE",
+						"showBrowser" : false,
+						"trackingUrls" : []
+					}
+				],
+				"customId" : "5b98f2537ed1a807e5e11cec",
+				"random" : "46.34613917028501",
+				"adSlots" : []
+			},
+			"adSlots" : []
+		},
+		"adSlots" : []
+	}
+});

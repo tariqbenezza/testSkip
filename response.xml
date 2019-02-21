@@ -1,0 +1,1189 @@
+<adResponse networkId='514966' serverId='dbg2' version='1'>
+  <rendererManifest version='1'>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;adRenderers version=&apos;1&apos;&gt;&lt;adRenderer adUnit=&apos;video,slate,&apos; contentType=&apos;video/mp4-h264,video/mp4,video/m4v,video/mp4-mpeg4,video/mp4-mpeg4_simple,video/m4v-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video/mp4-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video/mov-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video/m4v-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video/mp4-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video/mov-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video/m4v-mpeg4-640-480-less_eq_2500_kbps-aaclc,video/mp4-mpeg4-640-480-less_eq_2500_kbps-aaclc,video/mov-mpeg4-640-480-less_eq_2500_kbps-aaclc,video/mp4-h264-baseline,&apos; creativeApi=&apos;None,&apos; name=&apos;g_html5_video_mp4&apos; slotType=&apos;preroll,midroll,postroll,&apos; url=&apos;class://VideoRenderer&apos;/&gt;&lt;adRenderer adUnit=&apos;video,&apos; contentType=&apos;video/webm,video/ogg,&apos; creativeApi=&apos;None,&apos; name=&apos;g_html5_video_webm_ogg&apos; slotType=&apos;preroll,midroll,postroll,&apos; url=&apos;class://VideoRenderer&apos;/&gt;&lt;adRenderer adUnit=&apos;video,&apos; contentType=&apos;application/x-mpegurl,&apos; creativeApi=&apos;None,&apos; name=&apos;g_html5_video_m3u8&apos; slotType=&apos;preroll,midroll,postroll,&apos; url=&apos;class://VideoRenderer&apos;/&gt;&lt;adRenderer adUnit=&apos;video,fixed-size-interactive,app-interstitial,&apos; contentType=&apos;text/js_ref,&apos; creativeApi=&apos;VPAID,&apos; name=&apos;g_html5_vpaid&apos; slotType=&apos;preroll,midroll,postroll,overlay,&apos; url=&apos;class://VPAIDRenderer&apos;/&gt;&lt;adRenderer adUnit=&apos;video,still-image,fixed-size-interactive,linear-animation,app-interstitial,&apos; contentType=&apos;text/html_doc_ref,text/html_doc_lit_mobile,&apos; creativeApi=&apos;MRAID-1.0,&apos; name=&apos;g_html5_html_mraid_only&apos; slotType=&apos;preroll,midroll,postroll,overlay,display,&apos; url=&apos;class://HTMLRenderer&apos;/&gt;&lt;adRenderer adUnit=&apos;video,still-image,fixed-size-interactive,text-ad,linear-animation,generic-overlay,video-click-to-content,slate,logo,logo-click-to-content,app-interstitial,&apos; contentType=&apos;external/vast-2,&apos; creativeApi=&apos;VPAID,MRAID-1.0,None,&apos; name=&apos;g_html5_vast_desktop&apos; slotType=&apos;preroll,midroll,postroll,overlay,display,&apos; url=&apos;class://VastTranslator&apos;&gt;&lt;parameter name=&apos;translator.vast.asyncLoad&apos; value=&apos;true&apos;/&gt;&lt;/adRenderer&gt;&lt;adRenderer adUnit=&apos;video,&apos; contentType=&apos;video/quicktime,video/quicktime-h264,video/mov,video/mov-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video/mov-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video/mov-mpeg4-640-480-less_eq_2500_kbps-aaclc,video/mov-h263,&apos; creativeApi=&apos;None,&apos; name=&apos;g_html5_video_mov&apos; slotType=&apos;preroll,midroll,postroll,&apos; url=&apos;class://VideoRenderer&apos;/&gt;&lt;adRenderer adUnit=&apos;video,still-image,fixed-size-interactive,text-ad,logo-text-ad,linear-animation,generic-overlay,text-ad-click-to-content,still-image-click-to-content,generic-overlay-click-to-content,logo-text-ad-click-to-content,slate,logo,logo-click-to-content,player-skin,generic-overlay-click-to-content2,variable-size-interactive,app-interstitial,&apos; contentType=&apos;text/html_doc_ref,text/html_doc_lit_mobile,text/html_lit_nowrapper,&apos; creativeApi=&apos;None,&apos; name=&apos;g_html5_html_wo_mraid_since_5.13&apos; slotType=&apos;preroll,midroll,postroll,overlay,display,&apos; url=&apos;class://HTMLRenderer&apos;/&gt;&lt;adRenderer adUnit=&apos;video,still-image,fixed-size-interactive,text-ad,linear-animation,generic-overlay,slate,logo,app-interstitial,&apos; contentType=&apos;external/vast-3,&apos; creativeApi=&apos;VPAID,MRAID-1.0,None,&apos; name=&apos;g_html5_vast3&apos; slotType=&apos;preroll,midroll,postroll,overlay,&apos; url=&apos;class://VastTranslator&apos;&gt;&lt;parameter name=&apos;translator.vast.asyncLoad&apos; value=&apos;true&apos;/&gt;&lt;/adRenderer&gt;&lt;/adRenderers&gt;</rendererManifest>
+  <parameters>
+    <parameter category='profile' name='skipOverflowAdInLive'>
+      <![CDATA[true]]>
+    </parameter>
+    <parameter category='profile' name='supportErrorCallbacks'>
+      <![CDATA[]]>
+    </parameter>
+    <parameter category='profile' name='translator.vast.loadWithCookie'>
+      <![CDATA[true]]>
+    </parameter>
+    <parameter category='profile' name='enableExternalCandidateSSTF'>
+      <![CDATA[1]]>
+    </parameter>
+    <parameter category='profile' name='requestRecordSamplingRate'>
+      <![CDATA[10]]>
+    </parameter>
+  </parameters>
+  <visitor>
+    <state>
+      <entry name='_fw_va' value='27597076,27717740,27821660,28352201,28783145,28886605,28955129,29022020,29087592,29218482,29379037,29423160,29459451,29541284,29542283,29542441,29565413,29565558,29573299,29586555,29586570,29586745,29586845,29586879,29587047,29587268,29588286,29623753,29624584,29625777,29626018,29670652,29671358,29678111,29683528,29705420,29737105,29747262,'/>
+      <entry name='_fw_aus' value='3634.5875652584828:2,1~:1544453851'/>
+    </state>
+  </visitor>
+  <ads>
+    <ad adId='29218482' adUnit='55842'>
+      <creatives>
+        <creative adUnit='video' baseUnit='video' creativeId='4136411' duration='20'>
+          <creativeRenditions>
+            <creativeRendition creativeApi='VPAID' creativeRenditionId='12557597' height='144' preference='0' width='176' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21929906&amp;sid=2808238&amp;plc=232708280&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21929906.232708280%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+              <asset contentType='text/js_ref' id='12472705' mimeType='text/javascript' name='Default Asset for Rendition'/>
+            </creativeRendition>
+            <creativeRendition creativeApi='None' creativeRenditionId='12557598' height='144' preference='0' width='176' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21929906&amp;sid=2808238&amp;plc=232708280&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21929906.232708280%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+              <asset contentType='text/js_ref' id='12472706' mimeType='text/javascript' name='Default Asset for Rendition'/>
+            </creativeRendition>
+            <creativeRendition creativeApi='None' creativeRenditionId='12557599' height='180' preference='0' width='320' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21929906&amp;sid=2808238&amp;plc=232708280&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21929906.232708280%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+              <asset contentType='text/js_ref' id='12472707' mimeType='text/javascript' name='Default Asset for Rendition'/>
+            </creativeRendition>
+            <creativeRendition creativeApi='None' creativeRenditionId='12557600' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21929906&amp;sid=2808238&amp;plc=232708280&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21929906.232708280%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+              <asset contentType='text/js_ref' id='12472708' mimeType='text/javascript' name='Default Asset for Rendition'/>
+            </creativeRendition>
+            <creativeRendition creativeApi='None' creativeRenditionId='12557601' height='270' preference='0' width='480' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21929906&amp;sid=2808238&amp;plc=232708280&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21929906.232708280%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+              <asset contentType='text/js_ref' id='12472709' mimeType='text/javascript' name='Default Asset for Rendition'/>
+            </creativeRendition>
+            <creativeRendition creativeApi='None' creativeRenditionId='12557602' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21929906&amp;sid=2808238&amp;plc=232708280&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21929906.232708280%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+              <asset contentType='text/js_ref' id='12472710' mimeType='text/javascript' name='Default Asset for Rendition'/>
+            </creativeRendition>
+            <creativeRendition creativeApi='None' creativeRenditionId='12557603' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21929906&amp;sid=2808238&amp;plc=232708280&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21929906.232708280%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+              <asset contentType='text/js_ref' id='12472711' mimeType='text/javascript' name='Default Asset for Rendition'/>
+            </creativeRendition>
+            <creativeRendition creativeApi='None' creativeRenditionId='12557604' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21929906&amp;sid=2808238&amp;plc=232708280&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21929906.232708280%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+              <asset contentType='text/js_ref' id='12472712' mimeType='text/javascript' name='Default Asset for Rendition'/>
+            </creativeRendition>
+            <creativeRendition creativeApi='None' creativeRenditionId='12557605' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21929906&amp;sid=2808238&amp;plc=232708280&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21929906.232708280%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+              <asset contentType='text/js_ref' id='12472713' mimeType='text/javascript' name='Default Asset for Rendition'/>
+            </creativeRendition>
+            <creativeRendition creativeApi='None' creativeRenditionId='12557606' height='144' preference='0' width='256' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21929906&amp;sid=2808238&amp;plc=232708280&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21929906.232708280%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+              <asset contentType='text/js_ref' id='12472714' mimeType='text/javascript' name='Default Asset for Rendition'/>
+            </creativeRendition>
+          </creativeRenditions>
+        </creative>
+      </creatives>
+    </ad>
+    <ad adId='29087592' adUnit='55842'>
+      <creatives>
+        <creative adUnit='video' baseUnit='video' creativeId='4119523' duration='20.000'>
+          <creativeRenditions>
+            <creativeRendition creativeApi='None' creativeRenditionId='12483905' height='640' preference='0' width='1300'>
+              <parameters>
+                <parameter name='creativeData'>
+                  <![CDATA[
+<Extensions>
+                  <Extension type='StickyBrand'>
+                    <Domain>unknown</Domain>
+                    <Sector>FOOD & NUTRITION</Sector>
+                    <Advertiser>InnovAsian Cuisine Enterprises, Inc.</Advertiser>
+                    <Brand>Lemon Grass Kitchen</Brand>
+                  </Extension>
+                  <Extension type='StickyPricing'>
+                    <Price currency="EUR">0</Price>
+                  </Extension>
+                  <Extension type='StickyViewability'>https://ads.stickyadstv.com/viewability-tracking/?adId=1089337761&viewKey=1544453850124087-134&sessionId=152dd23a548da684ad3b4c7410e8cb70&zoneId=7118449&impId=1&cb=1350537&state=[viewabilityState]&percentViewable=[percent]&focus=[focus]&</Extension>
+                </Extensions>      ]]>
+              </parameter>
+            </parameters>
+            <asset bytes='1750000' contentType='video/mp4' mimeType='video/mp4' url='https://cdn.stickyadstv.com/www/images/1089337761-web-MP4-5bed88df9d4f1.mp4'/>
+          </creativeRendition>
+          <creativeRendition creativeApi='None' creativeRenditionId='12483905' height='640' preference='0' width='1300'>
+            <parameters>
+              <parameter name='creativeData'>
+                <![CDATA[
+<Extensions>
+                <Extension type='StickyBrand'>
+                  <Domain>unknown</Domain>
+                  <Sector>FOOD & NUTRITION</Sector>
+                  <Advertiser>InnovAsian Cuisine Enterprises, Inc.</Advertiser>
+                  <Brand>Lemon Grass Kitchen</Brand>
+                </Extension>
+                <Extension type='StickyPricing'>
+                  <Price currency="EUR">0</Price>
+                </Extension>
+                <Extension type='StickyViewability'>https://ads.stickyadstv.com/viewability-tracking/?adId=1089337761&viewKey=1544453850124087-134&sessionId=152dd23a548da684ad3b4c7410e8cb70&zoneId=7118449&impId=1&cb=1350537&state=[viewabilityState]&percentViewable=[percent]&focus=[focus]&</Extension>
+              </Extensions>      ]]>
+            </parameter>
+          </parameters>
+          <asset bytes='2130000' contentType='video/webm' mimeType='video/webm' url='https://cdn.stickyadstv.com/www/images/1089337761-web-WebM-5bed88ef5ef74.webm'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='12483905' height='640' preference='0' width='1300'>
+          <parameters>
+            <parameter name='creativeData'>
+              <![CDATA[
+<Extensions>
+              <Extension type='StickyBrand'>
+                <Domain>unknown</Domain>
+                <Sector>FOOD & NUTRITION</Sector>
+                <Advertiser>InnovAsian Cuisine Enterprises, Inc.</Advertiser>
+                <Brand>Lemon Grass Kitchen</Brand>
+              </Extension>
+              <Extension type='StickyPricing'>
+                <Price currency="EUR">0</Price>
+              </Extension>
+              <Extension type='StickyViewability'>https://ads.stickyadstv.com/viewability-tracking/?adId=1089337761&viewKey=1544453850124087-134&sessionId=152dd23a548da684ad3b4c7410e8cb70&zoneId=7118449&impId=1&cb=1350537&state=[viewabilityState]&percentViewable=[percent]&focus=[focus]&</Extension>
+            </Extensions>      ]]>
+          </parameter>
+          <parameter name='VPAID_creativeData'>
+            <![CDATA[
+<Extensions>
+            <Extension type='StickyBrand'>
+              <Domain>unknown</Domain>
+              <Sector>FOOD & NUTRITION</Sector>
+              <Advertiser>InnovAsian Cuisine Enterprises, Inc.</Advertiser>
+              <Brand>Lemon Grass Kitchen</Brand>
+            </Extension>
+            <Extension type='StickyPricing'>
+              <Price currency="EUR">0</Price>
+            </Extension>
+            <Extension type='StickyViewability'>https://ads.stickyadstv.com/viewability-tracking/?adId=1089337761&viewKey=1544453850124087-134&sessionId=152dd23a548da684ad3b4c7410e8cb70&zoneId=7118449&impId=1&cb=1350537&state=[viewabilityState]&percentViewable=[percent]&focus=[focus]&</Extension>
+          </Extensions>      ]]>
+        </parameter>
+      </parameters>
+      <asset bytes='1750000' contentType='text/js_ref' mimeType='text/javascript' url='https://cdn.stickyadstv.com/mustang/hedgehog.min.js?firstStage=https%3A%2F%2Fcdn.stickyadstv.com%2Fwww%2Fimages%2F1089337761-web-MP4-5bed88df9d4f1.mp4&amp;firstStage_adWidth=1300&amp;firstStage_adHeight=640&amp;firstStage_adDuration=20&amp;close=disabled&amp;linear=true&amp;clickTAG=https%3A%2F%2Fads.stickyadstv.com%2Fwww%2Fdelivery%2FswfIndex.php%3FreqType%3DAdsClickThrough%26adId%3D1089337761%26viewKey%3D1544453850124087-134%26sessionId%3D152dd23a548da684ad3b4c7410e8cb70%26zoneId%3D7118449%26impId%3D1%26cb%3D5863137%26url%3Dhttps%253A%252F%252Ffreewheel2018.tv%252F%26'/>
+    </creativeRendition>
+  </creativeRenditions>
+</creative>
+</creatives>
+</ad>
+<ad adId='28886605' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4102458' duration='10'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='None' creativeRenditionId='12384710' height='720' preference='0' width='1280' wrapperType='external/vast-3' wrapperUrl='https://bankiaes.solution.weborama.fr/fcgi-bin/dispatch.fcgi?a.A=im&amp;a.si=2905&amp;a.te=3819&amp;a.he=1&amp;a.wi=1&amp;a.hr=X&amp;a.ycp=&amp;a.ra=[RANDOM]'>
+          <asset contentType='video/mp4' id='12298558' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29459451' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4175218' duration='16'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='None' creativeRenditionId='12750751' height='480' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N8897.281004A3_ADVERTISING/B21959249.233498592;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12665618' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12750752' height='360' preference='0' width='480' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N8897.281004A3_ADVERTISING/B21959249.233498592;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12665619' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12750753' height='480' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N8897.281004A3_ADVERTISING/B21959249.233498592;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12665620' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12750754' height='480' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N8897.281004A3_ADVERTISING/B21959249.233498592;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12665621' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12750755' height='480' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N8897.281004A3_ADVERTISING/B21959249.233498592;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12665622' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12750756' height='480' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N8897.281004A3_ADVERTISING/B21959249.233498592;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/webm' id='12665623' mimeType='video/webm' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12750757' height='192' preference='0' width='256' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N8897.281004A3_ADVERTISING/B21959249.233498592;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='application/x-mpegurl' id='12665624' mimeType='application/x-mpegURL' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='27597076' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='3937638' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='None' creativeRenditionId='11832388' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N454206.158499A3ADVERTISING/B21628248.227622148;sz=0x0;dc_vpaid=0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11747683' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11832389' height='720' preference='0' width='1280' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N454206.158499A3ADVERTISING/B21628248.227622148;sz=0x0;dc_vpaid=0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11747684' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11832390' height='1080' preference='0' width='1920' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N454206.158499A3ADVERTISING/B21628248.227622148;sz=0x0;dc_vpaid=0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11747685' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11832391' height='480' preference='0' width='854' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N454206.158499A3ADVERTISING/B21628248.227622148;sz=0x0;dc_vpaid=0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11747686' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11832392' height='270' preference='0' width='480' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N454206.158499A3ADVERTISING/B21628248.227622148;sz=0x0;dc_vpaid=0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11747687' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11832393' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N454206.158499A3ADVERTISING/B21628248.227622148;sz=0x0;dc_vpaid=0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11747688' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11832394' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N454206.158499A3ADVERTISING/B21628248.227622148;sz=0x0;dc_vpaid=0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11747689' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11832395' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N454206.158499A3ADVERTISING/B21628248.227622148;sz=0x0;dc_vpaid=0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11747690' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11832396' height='406' preference='0' width='720' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N454206.158499A3ADVERTISING/B21628248.227622148;sz=0x0;dc_vpaid=0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11747691' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11832397' height='576' preference='0' width='1024' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N454206.158499A3ADVERTISING/B21628248.227622148;sz=0x0;dc_vpaid=0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11747692' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11832398' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N454206.158499A3ADVERTISING/B21628248.227622148;sz=0x0;dc_vpaid=0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11747693' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11832399' height='480' preference='0' width='854' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N454206.158499A3ADVERTISING/B21628248.227622148;sz=0x0;dc_vpaid=0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11747694' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11832400' height='720' preference='0' width='1280' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N454206.158499A3ADVERTISING/B21628248.227622148;sz=0x0;dc_vpaid=0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11747695' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29624584' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='3958719' duration='15'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='11701115' height='250' preference='0' width='300' wrapperType='external/vast-2' wrapperUrl='https://fw.adsafeprotected.com/vast/fwjsvid/st/169568/25550523/skeleton.js?IAS_VID_OPTS=hidecountdown&amp;includeFlash=false&amp;originalVast=https://ad.doubleclick.net/ddm/pfadx/N781880.281004A3_ADVERTISING/B21232716.221903654;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml;dc_vpaid=0;ord='>
+          <asset contentType='text/js_ref' id='11616718' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='27717740' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='3920477' duration='13'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='None' creativeRenditionId='11508018' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N266802.270843ANTENA3/B20795617.215805629;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11424233' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11508019' height='720' preference='0' width='1280' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N266802.270843ANTENA3/B20795617.215805629;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11424234' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11508020' height='1080' preference='0' width='1920' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N266802.270843ANTENA3/B20795617.215805629;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11424235' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11508021' height='480' preference='0' width='854' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N266802.270843ANTENA3/B20795617.215805629;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11424236' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11508022' height='270' preference='0' width='480' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N266802.270843ANTENA3/B20795617.215805629;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11424237' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11508023' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N266802.270843ANTENA3/B20795617.215805629;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11424238' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11508024' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N266802.270843ANTENA3/B20795617.215805629;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11424239' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11508025' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N266802.270843ANTENA3/B20795617.215805629;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11424240' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11508026' height='406' preference='0' width='720' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N266802.270843ANTENA3/B20795617.215805629;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11424241' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11508027' height='576' preference='0' width='1024' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N266802.270843ANTENA3/B20795617.215805629;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='11424242' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11508028' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N266802.270843ANTENA3/B20795617.215805629;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml'>
+          <asset contentType='video/webm' id='11424243' mimeType='video/webm' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11508029' height='480' preference='0' width='854' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N266802.270843ANTENA3/B20795617.215805629;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml'>
+          <asset contentType='video/webm' id='11424244' mimeType='video/webm' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11508030' height='720' preference='0' width='1280' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N266802.270843ANTENA3/B20795617.215805629;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml'>
+          <asset contentType='video/webm' id='11424245' mimeType='video/webm' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11508031' height='1080' preference='0' width='1920' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N266802.270843ANTENA3/B20795617.215805629;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml'>
+          <asset contentType='video/webm' id='11424246' mimeType='video/webm' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='11508032' height='144' preference='0' width='256' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N266802.270843ANTENA3/B20795617.215805629;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml'>
+          <asset contentType='application/x-mpegurl' id='11424247' mimeType='application/x-mpegURL' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29670652' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4231852' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='13043725' height='9' preference='0' width='16' wrapperType='external/vast-2' wrapperUrl='https://vast.adsafeprotected.com/vast/fwjsvid/st/224248/31781238/skeleton.js?includeFlash=false&amp;originalVast=https://ad.doubleclick.net/ddm/pfadx/N2550.281004.A3_ADVERTISING/B22013987.234896468;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='text/js_ref' id='12960472' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29626018' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4219972' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='None' creativeRenditionId='12979208' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N491203.1743589ATRESMEDIA.COM/B22034073.235058781;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12896035' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12979209' height='720' preference='0' width='1280' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N491203.1743589ATRESMEDIA.COM/B22034073.235058781;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12896036' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12979210' height='480' preference='0' width='854' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N491203.1743589ATRESMEDIA.COM/B22034073.235058781;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12896037' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12979211' height='270' preference='0' width='480' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N491203.1743589ATRESMEDIA.COM/B22034073.235058781;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12896038' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12979212' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N491203.1743589ATRESMEDIA.COM/B22034073.235058781;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12896039' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12979213' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N491203.1743589ATRESMEDIA.COM/B22034073.235058781;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12896040' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12979214' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N491203.1743589ATRESMEDIA.COM/B22034073.235058781;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12896041' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12979215' height='406' preference='0' width='720' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N491203.1743589ATRESMEDIA.COM/B22034073.235058781;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12896042' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12979216' height='576' preference='0' width='1024' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N491203.1743589ATRESMEDIA.COM/B22034073.235058781;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12896043' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12979217' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N491203.1743589ATRESMEDIA.COM/B22034073.235058781;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/webm' id='12896044' mimeType='video/webm' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12979218' height='480' preference='0' width='854' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N491203.1743589ATRESMEDIA.COM/B22034073.235058781;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/webm' id='12896045' mimeType='video/webm' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12979219' height='720' preference='0' width='1280' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N491203.1743589ATRESMEDIA.COM/B22034073.235058781;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/webm' id='12896046' mimeType='video/webm' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12979220' height='144' preference='0' width='256' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N491203.1743589ATRESMEDIA.COM/B22034073.235058781;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='application/x-mpegurl' id='12896047' mimeType='application/x-mpegURL' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29423160' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4168733' duration='20.000'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='None' creativeRenditionId='12720674' height='480' preference='0' width='854'>
+          <asset bytes='3261110' contentType='video/mp4-h264' id='12635647' mimeType='video/mp4' name='SERVEICATALA-TRANSIT20_480' url='https://publi.atresmediapublicidad.com/mrm/SERVEICATALA-TRANSIT20/video_FSD.mp4'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12720675' height='360' preference='0' width='640'>
+          <asset bytes='2382776' contentType='video/mp4-h264' id='12635648' mimeType='video/mp4' name='SERVEICATALA-TRANSIT20_360' url='https://publi.atresmediapublicidad.com/mrm/SERVEICATALA-TRANSIT20/video_SD.mp4'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12720676' height='238' preference='0' width='426'>
+          <asset bytes='1524231' contentType='video/mp4-h264' id='12635649' mimeType='video/mp4' name='SERVEICATALA-TRANSIT20_240' url='https://publi.atresmediapublicidad.com/mrm/SERVEICATALA-TRANSIT20/video_LD.mp4'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29737105' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4236775' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='None' creativeRenditionId='13068411' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N87601.158530A3ADVERTISING/B22057047.235240039;sz=0x0;dc_vpaid=0;ord=[timestamp]'>
+          <asset contentType='video/mp4' id='12985081' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='13068412' height='270' preference='0' width='480' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N87601.158530A3ADVERTISING/B22057047.235240039;sz=0x0;dc_vpaid=0;ord=[timestamp]'>
+          <asset contentType='video/mp4' id='12985082' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='13068413' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N87601.158530A3ADVERTISING/B22057047.235240039;sz=0x0;dc_vpaid=0;ord=[timestamp]'>
+          <asset contentType='video/mp4' id='12985083' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29022020' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4119283' duration='20.000'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='None' creativeRenditionId='12482942' height='360' preference='0' width='640'>
+          <asset bytes='2425094' contentType='video/mp4-h264' id='12396641' mimeType='video/mp4' name='VIDEO-OK-11085_Renault_Dacia_Cortacesped_Noviembre_20_Pen_newLegal_2018_11_16_360' url='https://publi.atresmediapublicidad.com/mrm/VIDEO-OK-11085_Renault_Dacia_Cortacesped_Noviembre_20_Pen_newLegal_2018_11_16/video_SD.mp4'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12482943' height='238' preference='0' width='426'>
+          <asset bytes='1809148' contentType='video/mp4-h264' id='12396642' mimeType='video/mp4' name='VIDEO-OK-11085_Renault_Dacia_Cortacesped_Noviembre_20_Pen_newLegal_2018_11_16_240' url='https://publi.atresmediapublicidad.com/mrm/VIDEO-OK-11085_Renault_Dacia_Cortacesped_Noviembre_20_Pen_newLegal_2018_11_16/video_LD.mp4'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29586879' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4215465' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='12957567' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/LENOR_-_Spain_-_ES_LE-UN_DNS_OLVISP_011118_W25-44_UNSTOPPABLES20_REACH-26698926_js.xml'>
+          <asset contentType='text/js_ref' id='12874431' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29379037' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4115818' duration='30'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='12463692' height='144' preference='0' width='176' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21869167&amp;sid=2808238&amp;plc=232799312&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21869167.232799312%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+          <asset contentType='text/js_ref' id='12377417' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12463693' height='144' preference='0' width='176' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21869167&amp;sid=2808238&amp;plc=232799312&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21869167.232799312%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+          <asset contentType='text/js_ref' id='12377418' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12463694' height='180' preference='0' width='320' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21869167&amp;sid=2808238&amp;plc=232799312&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21869167.232799312%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+          <asset contentType='text/js_ref' id='12377419' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12463695' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21869167&amp;sid=2808238&amp;plc=232799312&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21869167.232799312%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+          <asset contentType='text/js_ref' id='12377420' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12463696' height='270' preference='0' width='480' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21869167&amp;sid=2808238&amp;plc=232799312&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21869167.232799312%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+          <asset contentType='text/js_ref' id='12377421' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12463697' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21869167&amp;sid=2808238&amp;plc=232799312&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21869167.232799312%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+          <asset contentType='text/js_ref' id='12377422' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12463698' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21869167&amp;sid=2808238&amp;plc=232799312&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21869167.232799312%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+          <asset contentType='text/js_ref' id='12377423' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12463699' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21869167&amp;sid=2808238&amp;plc=232799312&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21869167.232799312%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+          <asset contentType='text/js_ref' id='12377424' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12463700' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21869167&amp;sid=2808238&amp;plc=232799312&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21869167.232799312%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+          <asset contentType='text/js_ref' id='12377425' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12463701' height='144' preference='0' width='256' wrapperType='external/vast-2' wrapperUrl='https://vast.doubleverify.com/v3/vast?_media=3&amp;ctx=13851672&amp;cmp=21869167&amp;sid=2808238&amp;plc=232799312&amp;advid=3065265&amp;adsrv=166&amp;blk=1&amp;_vast=https%3a%2f%2fad.doubleclick.net%2fddm%2fpfadx%2fN624.160370ANTENA3%2fB21869167.232799312%3bsz%3d0x0%3bord%3d%5btimestamp%5d%3bdc_lat%3d%3bdc_rdid%3d%3btag_for_child_directed_treatment%3d%3btfua%3d%3bdcmt%3dtext%2fxml'>
+          <asset contentType='text/js_ref' id='12377426' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29587047' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4215594' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='12958340' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/BRAUN_-_Spain_-_ES_MH-TT_DNS_OLV_011218_M18-44_Andes20_Preroll-26850188_js.xml'>
+          <asset contentType='text/js_ref' id='12875207' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29625777' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4156563' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='12665810' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/HS_-_Spain_-_ES_HS-MC_DNS_OLVISP_010718_M18-34_Superman20_REACH-26618019_js.xml'>
+          <asset contentType='text/js_ref' id='12580725' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29586745' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4215402' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='12957282' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/ARIELDASH_-_Spain_-_ES_AR-PO_DNS_OLV_010818_W25-44_DYPINIESTA203320330633_REACH-26696496_js.xml'>
+          <asset contentType='text/js_ref' id='12874151' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29586845' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4215448' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='12957522' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/FAIRY_-_Spain_-_ES_FY-HW_DNS_OLVISP_011018_W25-44_SHAKE20_REACH-26698456_js.xml'>
+          <asset contentType='text/js_ref' id='12874387' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29678111' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4151972' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='13026868' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/TAMPAX_-_Spain_-_ES_TX-TT_DNS_DIGBE_011018_W15-24_MITOS_REACH-26566406_js.xml'>
+          <asset contentType='text/js_ref' id='12943647' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29573299' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4212272' duration='25'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='12942675' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/BRAUN_-_Spain_-_ES_FH-TT_DNS_OLV_011118_W18-44_JunoGeishaIPL20_REACH-26849537_js.xml'>
+          <asset contentType='text/js_ref' id='12859534' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29565558' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4211449' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='12938744' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/PANTENE_-_Spain_-_ES_PN-SY_DNS_OLVISP_011018_W15-44_GANDALFLX20_REACH-26807423_js.xml'>
+          <asset contentType='text/js_ref' id='12855611' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29542441' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4204753' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='12907631' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/ARIELDASH_-_Spain_-_ES_AR-PO_DNS_OLV_011018_W25-44_DYP20_REACH-26697184_js.xml'>
+          <asset contentType='text/js_ref' id='12824640' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29565413' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4210841' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='12936268' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/PANTENE_-_Spain_-_ES_PN-SY_DNS_OLVISP_011018_W15-44_CONDIMANIA20_REACH-26805347_js.xml'>
+          <asset contentType='text/js_ref' id='12853147' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29588286' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4066283' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='12190069' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/AUSONIA_-_Spain_-_ES_AU-MP_DNS_OLVISP_010918_W25-44_AECCProspera420_Reach-26516236_js.xml'>
+          <asset contentType='text/js_ref' id='12104295' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='28352201' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4050111' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='12109272' height='1080' preference='0' width='1920' wrapperType='external/vast-2' wrapperUrl='https://svastx.moatads.com/zenithesnestledcmvpaid4923748279/CAMPA%25C3%2591A_NESPRESSO_GC13-231517137_js.xml'>
+          <asset contentType='text/js_ref' id='12023607' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='27821660' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='3958904' duration='30'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='None' creativeRenditionId='11701748' height='720' preference='0' width='1280' wrapperType='external/vast-3' wrapperUrl='https://bs.serving-sys.com/Serving?cn=display&amp;c=23&amp;pl=VAST&amp;pli=26273255&amp;PluID=0&amp;pos=1184&amp;ord=[timestamp]&amp;cim=1'>
+          <asset contentType='video/mp4' id='11617343' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29671358' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='3954599' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='11827518' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/OLAY_-_Spain_-_ES_OL-TT_DNS_OLV_010918_W25-34_OLAYAMPLIFICATION_REACH-26266616_js.xml'>
+          <asset contentType='text/js_ref' id='11742825' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29542283' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4204510' duration='16'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='12907818' height='203' preference='0' width='360' wrapperType='external/vast-2' wrapperUrl='https://vast.adsafeprotected.com/vast/fwjsvid/st/224001/31651722/skeleton.js?includeFlash=false&amp;originalVast=https://ad.doubleclick.net/ddm/pfadx/N2550.281004.A3_ADVERTISING/B22010772.234852516;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='text/js_ref' id='12824824' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29683528' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4228862' duration='25'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='None' creativeRenditionId='13029738' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://bs.serving-sys.com/Serving?cn=display&amp;c=23&amp;pl=VAST&amp;pli=26954013&amp;PluID=0&amp;pos=7864&amp;ord=[timestamp]&amp;cim=1'>
+          <asset contentType='video/mp4' id='12946520' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='28955129' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4109298' duration='25'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='None' creativeRenditionId='12421925' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N5648.atresadvertising.omd.e/B21930050.232739738;sz=0x0;kw=[url_encoded_publisher_data];ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12335809' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12421926' height='720' preference='0' width='1280' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N5648.atresadvertising.omd.e/B21930050.232739738;sz=0x0;kw=[url_encoded_publisher_data];ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12335810' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12421927' height='1080' preference='0' width='1920' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N5648.atresadvertising.omd.e/B21930050.232739738;sz=0x0;kw=[url_encoded_publisher_data];ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12335811' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12421928' height='480' preference='0' width='854' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N5648.atresadvertising.omd.e/B21930050.232739738;sz=0x0;kw=[url_encoded_publisher_data];ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12335812' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12421929' height='270' preference='0' width='480' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N5648.atresadvertising.omd.e/B21930050.232739738;sz=0x0;kw=[url_encoded_publisher_data];ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12335813' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12421930' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N5648.atresadvertising.omd.e/B21930050.232739738;sz=0x0;kw=[url_encoded_publisher_data];ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12335814' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12421931' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N5648.atresadvertising.omd.e/B21930050.232739738;sz=0x0;kw=[url_encoded_publisher_data];ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12335815' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12421932' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N5648.atresadvertising.omd.e/B21930050.232739738;sz=0x0;kw=[url_encoded_publisher_data];ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12335816' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12421933' height='406' preference='0' width='720' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N5648.atresadvertising.omd.e/B21930050.232739738;sz=0x0;kw=[url_encoded_publisher_data];ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12335817' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12421934' height='576' preference='0' width='1024' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N5648.atresadvertising.omd.e/B21930050.232739738;sz=0x0;kw=[url_encoded_publisher_data];ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12335818' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29747262' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4136413' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='12557655' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/BRAUN_-_Spain_-_ES_MH-TT_DNS_OLV_011118_M18-35_Styling20_Preroll-26527507_js.xml'>
+          <asset contentType='text/js_ref' id='12472763' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29705420' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4231985' duration='10'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='13044365' height='9' preference='0' width='16' wrapperType='external/vast-2' wrapperUrl='https://vast.adsafeprotected.com/vast/fwjsvid/st/226292/31813243/skeleton.js?includeFlash=false&amp;originalVast=https://ad.doubleclick.net/ddm/pfadx/N781880.1822130ANTENA3.ES/B22043391.235244721;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='text/js_ref' id='12961112' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29623753' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4196767' duration='27.000'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='None' creativeRenditionId='12844963' height='1080' preference='0' width='1920'>
+          <asset bytes='11768002' contentType='video/mp4-h264' id='12761954' mimeType='video/mp4' name='BOSCHPLP30_1080' url='https://publi.atresmediapublicidad.com/mrm/BOSCHPLP30/video_FHD.mp4'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12844964' height='720' preference='0' width='1280'>
+          <asset bytes='8091222' contentType='video/mp4-h264' id='12761955' mimeType='video/mp4' name='BOSCHPLP30_720' url='https://publi.atresmediapublicidad.com/mrm/BOSCHPLP30/video_HD.mp4'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12844965' height='480' preference='0' width='854'>
+          <asset bytes='4247845' contentType='video/mp4-h264' id='12761956' mimeType='video/mp4' name='BOSCHPLP30_480' url='https://publi.atresmediapublicidad.com/mrm/BOSCHPLP30/video_FSD.mp4'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12844966' height='360' preference='0' width='640'>
+          <asset bytes='3114952' contentType='video/mp4-h264' id='12761957' mimeType='video/mp4' name='BOSCHPLP30_360' url='https://publi.atresmediapublicidad.com/mrm/BOSCHPLP30/video_SD.mp4'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12844967' height='238' preference='0' width='426'>
+          <asset bytes='1984167' contentType='video/mp4-h264' id='12761958' mimeType='video/mp4' name='BOSCHPLP30_240' url='https://publi.atresmediapublicidad.com/mrm/BOSCHPLP30/video_LD.mp4'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29587268' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4215717' duration='20.000'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='None' creativeRenditionId='12958724' height='1080' preference='0' width='1920'>
+          <asset bytes='5634952' contentType='video/mp4-h264' id='12875584' mimeType='video/mp4' name='LANGOSTINOTV_1080' url='https://publi.atresmediapublicidad.com/mrm/LANGOSTINOTV/video_FHD.mp4'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12958725' height='720' preference='0' width='1280'>
+          <asset bytes='3980364' contentType='video/mp4-h264' id='12875585' mimeType='video/mp4' name='LANGOSTINOTV_720' url='https://publi.atresmediapublicidad.com/mrm/LANGOSTINOTV/video_HD.mp4'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12958726' height='480' preference='0' width='854'>
+          <asset bytes='2181268' contentType='video/mp4-h264' id='12875586' mimeType='video/mp4' name='LANGOSTINOTV_480' url='https://publi.atresmediapublicidad.com/mrm/LANGOSTINOTV/video_FSD.mp4'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12958727' height='360' preference='0' width='640'>
+          <asset bytes='1637049' contentType='video/mp4-h264' id='12875587' mimeType='video/mp4' name='LANGOSTINOTV_360' url='https://publi.atresmediapublicidad.com/mrm/LANGOSTINOTV/video_SD.mp4'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12958728' height='238' preference='0' width='426'>
+          <asset bytes='1098527' contentType='video/mp4-h264' id='12875588' mimeType='video/mp4' name='LANGOSTINOTV_240' url='https://publi.atresmediapublicidad.com/mrm/LANGOSTINOTV/video_LD.mp4'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29586570' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4215338' duration='25'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956974' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N273801.158547ANTENA3/B21984110.233916894;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873843' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956975' height='720' preference='0' width='1280' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N273801.158547ANTENA3/B21984110.233916894;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873844' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956976' height='1080' preference='0' width='1920' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N273801.158547ANTENA3/B21984110.233916894;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873845' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956977' height='480' preference='0' width='854' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N273801.158547ANTENA3/B21984110.233916894;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873846' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956978' height='270' preference='0' width='480' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N273801.158547ANTENA3/B21984110.233916894;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873847' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956979' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N273801.158547ANTENA3/B21984110.233916894;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873848' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956980' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N273801.158547ANTENA3/B21984110.233916894;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873849' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956981' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N273801.158547ANTENA3/B21984110.233916894;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873850' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956982' height='406' preference='0' width='720' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N273801.158547ANTENA3/B21984110.233916894;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873851' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956983' height='576' preference='0' width='1024' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N273801.158547ANTENA3/B21984110.233916894;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873852' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29586555' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4215331' duration='28'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956933' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N773715.1743589ATRESMEDIA.COM/B22025297.234854580;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873802' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956934' height='720' preference='0' width='1280' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N773715.1743589ATRESMEDIA.COM/B22025297.234854580;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873803' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956935' height='1080' preference='0' width='1920' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N773715.1743589ATRESMEDIA.COM/B22025297.234854580;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873804' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956936' height='480' preference='0' width='854' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N773715.1743589ATRESMEDIA.COM/B22025297.234854580;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873805' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956937' height='270' preference='0' width='480' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N773715.1743589ATRESMEDIA.COM/B22025297.234854580;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873806' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956938' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N773715.1743589ATRESMEDIA.COM/B22025297.234854580;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873807' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956939' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N773715.1743589ATRESMEDIA.COM/B22025297.234854580;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873808' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956940' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N773715.1743589ATRESMEDIA.COM/B22025297.234854580;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873809' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956941' height='406' preference='0' width='720' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N773715.1743589ATRESMEDIA.COM/B22025297.234854580;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873810' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956942' height='576' preference='0' width='1024' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N773715.1743589ATRESMEDIA.COM/B22025297.234854580;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12873811' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956943' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N773715.1743589ATRESMEDIA.COM/B22025297.234854580;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/webm' id='12873812' mimeType='video/webm' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956944' height='480' preference='0' width='854' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N773715.1743589ATRESMEDIA.COM/B22025297.234854580;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/webm' id='12873813' mimeType='video/webm' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956945' height='720' preference='0' width='1280' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N773715.1743589ATRESMEDIA.COM/B22025297.234854580;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/webm' id='12873814' mimeType='video/webm' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956946' height='1080' preference='0' width='1920' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N773715.1743589ATRESMEDIA.COM/B22025297.234854580;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/webm' id='12873815' mimeType='video/webm' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12956947' height='144' preference='0' width='256' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N773715.1743589ATRESMEDIA.COM/B22025297.234854580;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='application/x-mpegurl' id='12873816' mimeType='application/x-mpegURL' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='29541284' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4204228' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='None' creativeRenditionId='12903219' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N429002.1743589ATRESMEDIA.COM/B22022474.234557239;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12820229' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12903220' height='720' preference='0' width='1280' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N429002.1743589ATRESMEDIA.COM/B22022474.234557239;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12820230' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12903221' height='1024' preference='0' width='1820' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N429002.1743589ATRESMEDIA.COM/B22022474.234557239;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12820231' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12903222' height='480' preference='0' width='854' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N429002.1743589ATRESMEDIA.COM/B22022474.234557239;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12820232' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12903223' height='270' preference='0' width='480' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N429002.1743589ATRESMEDIA.COM/B22022474.234557239;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12820233' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12903224' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N429002.1743589ATRESMEDIA.COM/B22022474.234557239;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12820234' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12903225' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N429002.1743589ATRESMEDIA.COM/B22022474.234557239;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12820235' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12903226' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N429002.1743589ATRESMEDIA.COM/B22022474.234557239;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12820236' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12903227' height='406' preference='0' width='720' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N429002.1743589ATRESMEDIA.COM/B22022474.234557239;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12820237' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12903228' height='576' preference='0' width='1024' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N429002.1743589ATRESMEDIA.COM/B22022474.234557239;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/mp4' id='12820238' mimeType='video/mp4' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12903229' height='360' preference='0' width='640' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N429002.1743589ATRESMEDIA.COM/B22022474.234557239;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/webm' id='12820239' mimeType='video/webm' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12903230' height='480' preference='0' width='854' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N429002.1743589ATRESMEDIA.COM/B22022474.234557239;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/webm' id='12820240' mimeType='video/webm' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12903231' height='720' preference='0' width='1280' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N429002.1743589ATRESMEDIA.COM/B22022474.234557239;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/webm' id='12820241' mimeType='video/webm' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12903232' height='1024' preference='0' width='1820' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N429002.1743589ATRESMEDIA.COM/B22022474.234557239;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='video/webm' id='12820242' mimeType='video/webm' name='Default Asset for Rendition'/>
+        </creativeRendition>
+        <creativeRendition creativeApi='None' creativeRenditionId='12903233' height='144' preference='0' width='256' wrapperType='external/vast-2' wrapperUrl='https://ad.doubleclick.net/ddm/pfadx/N429002.1743589ATRESMEDIA.COM/B22022474.234557239;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='application/x-mpegurl' id='12820243' mimeType='application/x-mpegURL' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+<ad adId='28783145' adUnit='55842'>
+  <creatives>
+    <creative adUnit='video' baseUnit='video' creativeId='4078303' duration='20'>
+      <creativeRenditions>
+        <creativeRendition creativeApi='VPAID' creativeRenditionId='12249957' height='9' preference='0' width='16' wrapperType='external/vast-2' wrapperUrl='https://vast.adsafeprotected.com/vast/fwjsvid/st/214526/30958450/skeleton.js?includeFlash=false&amp;originalVast=https://ad.doubleclick.net/ddm/pfadx/N624.1743589ATRESMEDIA.COM/B21896698.232610508;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml'>
+          <asset contentType='text/js_ref' id='12164096' mimeType='text/javascript' name='Default Asset for Rendition'/>
+        </creativeRendition>
+      </creativeRenditions>
+    </creative>
+  </creatives>
+</ad>
+</ads>
+<siteSection customId='atresplayer_desktop' pageViewRandom='98.58232749788212'>
+  <videoPlayer>
+    <videoAsset customId='5a6a189a7ed1a834493ebf70' videoPlayRandom='45.30602876014049'>
+      <adSlots>
+        <temporalAdSlot adUnit='Midroll Standard' customId='midLive' timePosition='1200' timePositionClass='midroll'>
+          <selectedAds>
+            <adReference adId='29218482' creativeId='4136411' creativeRenditionId='12557597' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29218482&amp;reid=12557597&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29218482&amp;reid=12557597&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29218482,12557597,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='>
+                  <trackingURLs>
+                    <url name='127719' value='https://ads.stickyadstv.com/user-matching?id=185'/>
+                    <url name='127719' value='https://ads.stickyadstv.com/auto-user-sync'/>
+                  </trackingURLs>
+                </eventCallback>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29218482&amp;reid=12557597&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29087592' creativeId='4119523' creativeRenditionId='12483905' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29087592&amp;reid=12483905&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29087592&amp;reid=12483905&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29087592,12483905,40442.,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;cr=https%3A//ads.stickyadstv.com/www/delivery/swfIndex.php%3FreqType%3DAdsSendReport%26adId%3D1089337761%26viewKey%3D1544453850124087-134%26sessionId%3D152dd23a548da684ad3b4c7410e8cb70%26zoneId%3D7118449%26impId%3D1%26cb%3D1035657%26tagsArray%3D%26displayPercentage%3D0%26time%3D0%26'>
+                  <trackingURLs>
+                    <url name='defaultImpression' value='https://ads.stickyadstv.com/www/delivery/swfIndex.php?reqType=AdsDisplayStarted&amp;adId=1089337761&amp;viewKey=1544453850124087-134&amp;sessionId=152dd23a548da684ad3b4c7410e8cb70&amp;zoneId=7118449&amp;impId=1&amp;cb=690344&amp;'/>
+                    <url name='defaultImpression' value='https://cm.g.doubleclick.net/pixel?google_nid=stickyxchange_dbm&amp;google_cm=&amp;google_sc'/>
+                  </trackingURLs>
+                </eventCallback>
+                <eventCallback name='firstQuartile' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29087592&amp;reid=12483905&amp;arid=0&amp;auid=&amp;cn=firstQuartile&amp;et=i&amp;_cc=&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;cr=https%3A//ads.stickyadstv.com/www/delivery/swfIndex.php%3FreqType%3DAdsSendReport%26adId%3D1089337761%26viewKey%3D1544453850124087-134%26sessionId%3D152dd23a548da684ad3b4c7410e8cb70%26zoneId%3D7118449%26impId%3D1%26cb%3D6258115%26tagsArray%3D%26displayPercentage%3D25%26time%3D5%26'/>
+                <eventCallback name='midPoint' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29087592&amp;reid=12483905&amp;arid=0&amp;auid=&amp;cn=midPoint&amp;et=i&amp;_cc=&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;cr=https%3A//ads.stickyadstv.com/www/delivery/swfIndex.php%3FreqType%3DAdsSendReport%26adId%3D1089337761%26viewKey%3D1544453850124087-134%26sessionId%3D152dd23a548da684ad3b4c7410e8cb70%26zoneId%3D7118449%26impId%3D1%26cb%3D7507247%26tagsArray%3D%26displayPercentage%3D50%26time%3D10%26'/>
+                <eventCallback name='thirdQuartile' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29087592&amp;reid=12483905&amp;arid=0&amp;auid=&amp;cn=thirdQuartile&amp;et=i&amp;_cc=&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;cr=https%3A//ads.stickyadstv.com/www/delivery/swfIndex.php%3FreqType%3DAdsSendReport%26adId%3D1089337761%26viewKey%3D1544453850124087-134%26sessionId%3D152dd23a548da684ad3b4c7410e8cb70%26zoneId%3D7118449%26impId%3D1%26cb%3D9730005%26tagsArray%3D%26displayPercentage%3D75%26time%3D15%26'/>
+                <eventCallback name='complete' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29087592&amp;reid=12483905&amp;arid=0&amp;auid=&amp;cn=complete&amp;et=i&amp;_cc=&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;cr=https%3A//ads.stickyadstv.com/www/delivery/swfIndex.php%3FreqType%3DAdsDisplayEnd%26adId%3D1089337761%26viewKey%3D1544453850124087-134%26sessionId%3D152dd23a548da684ad3b4c7410e8cb70%26zoneId%3D7118449%26impId%3D1%26cb%3D3805745%26tagsArray%3D%26displayPercentage%3D100%26time%3D20%26'/>
+                <eventCallback name='defaultClick' showBrowser='true' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29087592&amp;reid=12483905&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr=https%3A//ads.stickyadstv.com/www/delivery/swfIndex.php%3FreqType%3DAdsClickThrough%26adId%3D1089337761%26viewKey%3D1544453850124087-134%26sessionId%3D152dd23a548da684ad3b4c7410e8cb70%26zoneId%3D7118449%26impId%3D1%26cb%3D1583166%26url%3Dhttps%253A%252F%252Ffreewheel2018.tv%252F%26'/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='28886605' creativeId='4102458' creativeRenditionId='12384710' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=28886605&amp;reid=12384710&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=28886605&amp;reid=12384710&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=28886605,12384710,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;cr=https%3A//pixel.adsafeprotected.com/rfw/st/212672/31122380/skeleton.gif'/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=28886605&amp;reid=12384710&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29459451' creativeId='4175218' creativeRenditionId='12750751' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29459451&amp;reid=12750751&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29459451&amp;reid=12750751&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29459451,12750751,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29459451&amp;reid=12750751&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='27597076' creativeId='3937638' creativeRenditionId='11832388' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=27597076&amp;reid=11832388&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=27597076&amp;reid=11832388&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=27597076,11832388,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=27597076&amp;reid=11832388&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29624584' creativeId='3958719' creativeRenditionId='11701115' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29624584&amp;reid=11701115&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29624584&amp;reid=11701115&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29624584,11701115,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29624584&amp;reid=11701115&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='27717740' creativeId='3920477' creativeRenditionId='11508018' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=27717740&amp;reid=11508018&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=27717740&amp;reid=11508018&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=27717740,11508018,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=27717740&amp;reid=11508018&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29670652' creativeId='4231852' creativeRenditionId='13043725' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29670652&amp;reid=13043725&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29670652&amp;reid=13043725&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29670652,13043725,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29670652&amp;reid=13043725&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29626018' creativeId='4219972' creativeRenditionId='12979208' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29626018&amp;reid=12979208&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29626018&amp;reid=12979208&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29626018,12979208,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29626018&amp;reid=12979208&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29423160' creativeId='4168733' creativeRenditionId='12720674' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29423160&amp;reid=12720674&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29423160&amp;reid=12720674&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29423160,12720674,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr=https%3A//bs.serving-sys.com/serving/adServer.bs%3Fcn%3Ddisplay%26c%3D19%26mc%3Dimp%26pli%3D26747233%26PluID%3D0%26ord%3D1520795359%26rtu%3D-1'/>
+                <eventCallback name='complete' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29423160&amp;reid=12720674&amp;arid=0&amp;auid=&amp;cn=complete&amp;et=i&amp;_cc=&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;cr=https%3A//bs.serving-sys.com/serving/adServer.bs%3Fcn%3Ddisplay%26c%3D19%26mc%3Dimp%26pli%3D26747234%26PluID%3D0%26ord%3D1520795359%26rtu%3D-1'/>
+                <eventCallback name='defaultClick' showBrowser='true' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29423160&amp;reid=12720674&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr=https%3A//bs.serving-sys.com/serving/adServer.bs%3Fcn%3Dtrd%26mc%3Dclick%26pli%3D26747233%26PluID%3D0%26ord%3D1520795359'/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29737105' creativeId='4236775' creativeRenditionId='13068411' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29737105&amp;reid=13068411&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29737105&amp;reid=13068411&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29737105,13068411,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29737105&amp;reid=13068411&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29022020' creativeId='4119283' creativeRenditionId='12482942' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29022020&amp;reid=12482942&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29022020&amp;reid=12482942&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29022020,12482942,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr=https%3A//ad.doubleclick.net/ddm/trackimp/N5648.atresadvertising.omd.e/B21892978.233816416%3Bdc_pre%3DCJSKh4X42N4CFcYw0wodog4LPQ%3Bdc_trk_aid%3D431472945%3Bdc_trk_cid%3D107775444%3Bord%3D317733143%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D%3F'>
+                  <trackingURLs>
+                    <url name='defaultImpression' value='https://pixel.adsafeprotected.com/rfw/st/218568/31477177/skeleton.gif'/>
+                  </trackingURLs>
+                </eventCallback>
+                <eventCallback name='defaultClick' showBrowser='true' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29022020&amp;reid=12482942&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr=https%3A//ad.doubleclick.net/ddm/trackclk/N5648.atresadvertising.omd.e/B21892978.233816416%3Bdc_trk_aid%3D431472945%3Bdc_trk_cid%3D107775444%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D'/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29586879' creativeId='4215465' creativeRenditionId='12957567' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29586879&amp;reid=12957567&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29586879&amp;reid=12957567&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29586879,12957567,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29586879&amp;reid=12957567&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29379037' creativeId='4115818' creativeRenditionId='12463692' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29379037&amp;reid=12463692&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29379037&amp;reid=12463692&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29379037,12463692,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29379037&amp;reid=12463692&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29587047' creativeId='4215594' creativeRenditionId='12958340' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29587047&amp;reid=12958340&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29587047&amp;reid=12958340&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29587047,12958340,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29587047&amp;reid=12958340&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29625777' creativeId='4156563' creativeRenditionId='12665810' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29625777&amp;reid=12665810&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29625777&amp;reid=12665810&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29625777,12665810,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29625777&amp;reid=12665810&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29586745' creativeId='4215402' creativeRenditionId='12957282' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29586745&amp;reid=12957282&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29586745&amp;reid=12957282&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29586745,12957282,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29586745&amp;reid=12957282&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29586845' creativeId='4215448' creativeRenditionId='12957522' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29586845&amp;reid=12957522&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29586845&amp;reid=12957522&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29586845,12957522,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29586845&amp;reid=12957522&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29678111' creativeId='4151972' creativeRenditionId='13026868' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29678111&amp;reid=13026868&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29678111&amp;reid=13026868&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29678111,13026868,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29678111&amp;reid=13026868&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29573299' creativeId='4212272' creativeRenditionId='12942675' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29573299&amp;reid=12942675&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29573299&amp;reid=12942675&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29573299,12942675,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29573299&amp;reid=12942675&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29565558' creativeId='4211449' creativeRenditionId='12938744' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29565558&amp;reid=12938744&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29565558&amp;reid=12938744&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29565558,12938744,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29565558&amp;reid=12938744&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29542441' creativeId='4204753' creativeRenditionId='12907631' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29542441&amp;reid=12907631&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29542441&amp;reid=12907631&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29542441,12907631,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29542441&amp;reid=12907631&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29565413' creativeId='4210841' creativeRenditionId='12936268' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29565413&amp;reid=12936268&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29565413&amp;reid=12936268&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29565413,12936268,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29565413&amp;reid=12936268&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29588286' creativeId='4066283' creativeRenditionId='12190069' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29588286&amp;reid=12190069&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29588286&amp;reid=12190069&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29588286,12190069,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29588286&amp;reid=12190069&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='28352201' creativeId='4050111' creativeRenditionId='12109272' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=28352201&amp;reid=12109272&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=28352201&amp;reid=12109272&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=28352201,12109272,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=28352201&amp;reid=12109272&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='27821660' creativeId='3958904' creativeRenditionId='11701748' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=27821660&amp;reid=11701748&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=27821660&amp;reid=11701748&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=27821660,11701748,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=27821660&amp;reid=11701748&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29671358' creativeId='3954599' creativeRenditionId='11827518' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29671358&amp;reid=11827518&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29671358&amp;reid=11827518&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29671358,11827518,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29671358&amp;reid=11827518&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29542283' creativeId='4204510' creativeRenditionId='12907818' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29542283&amp;reid=12907818&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29542283&amp;reid=12907818&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29542283,12907818,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29542283&amp;reid=12907818&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29683528' creativeId='4228862' creativeRenditionId='13029738' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29683528&amp;reid=13029738&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29683528&amp;reid=13029738&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29683528,13029738,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29683528&amp;reid=13029738&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='28955129' creativeId='4109298' creativeRenditionId='12421925' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=28955129&amp;reid=12421925&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=28955129&amp;reid=12421925&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=28955129,12421925,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=28955129&amp;reid=12421925&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29747262' creativeId='4136413' creativeRenditionId='12557655' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29747262&amp;reid=12557655&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29747262&amp;reid=12557655&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29747262,12557655,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29747262&amp;reid=12557655&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29705420' creativeId='4231985' creativeRenditionId='13044365' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29705420&amp;reid=13044365&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29705420&amp;reid=13044365&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29705420,13044365,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29705420&amp;reid=13044365&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29623753' creativeId='4196767' creativeRenditionId='12844963' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29623753&amp;reid=12844963&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29623753&amp;reid=12844963&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29623753,12844963,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' showBrowser='true' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29623753&amp;reid=12844963&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr=https%3A//www.bosch-home.es/especiales/lavadoras-idos%3Fcid%3Dlavadoraidos%7Cdisp%7C1218%7Ccpm%7Cpub%7Ctrueview%7Cmda%7Cpost%7Clavado%7Ca3'/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29587268' creativeId='4215717' creativeRenditionId='12958724' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29587268&amp;reid=12958724&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29587268&amp;reid=12958724&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29587268,12958724,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' showBrowser='true' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29587268&amp;reid=12958724&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr=https%3A//www.pescanova.es/productos/mariscos/rodolfos/'/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29586570' creativeId='4215338' creativeRenditionId='12956974' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29586570&amp;reid=12956974&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29586570&amp;reid=12956974&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29586570,12956974,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29586570&amp;reid=12956974&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29586555' creativeId='4215331' creativeRenditionId='12956933' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29586555&amp;reid=12956933&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29586555&amp;reid=12956933&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29586555,12956933,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29586555&amp;reid=12956933&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='29541284' creativeId='4204228' creativeRenditionId='12903219' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29541284&amp;reid=12903219&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29541284&amp;reid=12903219&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=29541284,12903219,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=29541284&amp;reid=12903219&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+            <adReference adId='28783145' creativeId='4078303' creativeRenditionId='12249957' replicaId='0'>
+              <eventCallbacks>
+                <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=28783145&amp;reid=12249957&amp;arid=0&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct='/>
+                <eventCallback name='defaultImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=28783145&amp;reid=12249957&amp;arid=0&amp;auid=&amp;cn=defaultImpression&amp;et=i&amp;_cc=28783145,12249957,,39373.40221.40442.,1544453851,1&amp;tpos=1200&amp;iw=&amp;uxnw=&amp;uxss=&amp;uxct=&amp;init=1&amp;asid=176827174&amp;ssid=8736909&amp;cr='/>
+                <eventCallback name='defaultClick' type='CLICK' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;r=514966&amp;adid=28783145&amp;reid=12249957&amp;arid=0&amp;auid=&amp;cn=defaultClick&amp;et=c&amp;_cc=&amp;tpos=1200&amp;cr='/>
+              </eventCallbacks>
+            </adReference>
+          </selectedAds>
+          <eventCallbacks>
+            <eventCallback name='slotImpression' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;cn=slotImpression&amp;et=i&amp;tpos=1200&amp;init=1&amp;slid=0'/>
+            <eventCallback name='slotEnd' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;cn=slotEnd&amp;et=i&amp;tpos=1200&amp;init=1&amp;slid=0'/>
+          </eventCallbacks>
+        </temporalAdSlot>
+      </adSlots>
+      <eventCallbacks>
+        <eventCallback name='videoView' type='IMPRESSION' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011&amp;f=&amp;cn=videoView&amp;et=i&amp;uxnw=&amp;uxss=&amp;uxct='/>
+      </eventCallbacks>
+    </videoAsset>
+  </videoPlayer>
+</siteSection>
+<eventCallbacks>
+  <eventCallback type='GENERIC' url='https://nycadvip1-d.fwmrm.net/ad/l/1?s=dbg2&amp;n=514966%3B514966&amp;t=1544453851005120011'/>
+</eventCallbacks>
+</adResponse>

@@ -1,0 +1,4832 @@
+tv.freewheel.SDK._instanceQueue['Context_1'].requestComplete(
+{
+version: "1",
+networkId: "514966",
+parameters: [
+{
+name: "skipOverflowAdInLive",
+category: "profile",
+value: "true"
+},
+{
+name: "enableSSTFFallback",
+category: "profile",
+value: "1"
+}
+],
+rendererManifest: {
+adRenderers: {
+version: "1",
+adRenderer: [
+{
+name: "g_html5_video_mp4",
+url: "class://VideoRenderer",
+contentType: "video/mp4-h264,video/mp4,video/m4v,video/mp4-mpeg4,video/mp4-mpeg4_simple,video/m4v-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video/mp4-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video/mov-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video/m4v-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video/mp4-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video/mov-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video/m4v-mpeg4-640-480-less_eq_2500_kbps-aaclc,video/mp4-mpeg4-640-480-less_eq_2500_kbps-aaclc,video/mov-mpeg4-640-480-less_eq_2500_kbps-aaclc,video/mp4-h264-baseline,",
+adUnit: "video,slate,",
+slotType: "preroll,midroll,postroll,",
+creativeApi: "None,"
+},
+{
+name: "g_html5_vast_mobile",
+url: "class://VastTranslator",
+contentType: "external/vast-2,",
+adUnit: "video,still-image,fixed-size-interactive,text-ad,linear-animation,generic-overlay,video-click-to-content,slate,logo,logo-click-to-content,app-interstitial,",
+slotType: "preroll,midroll,postroll,overlay,display,",
+creativeApi: "VPAID,MRAID-1.0,None,"
+},
+{
+name: "g_html5_video_webm_ogg",
+url: "class://VideoRenderer",
+contentType: "video/webm,video/ogg,",
+adUnit: "video,",
+slotType: "preroll,midroll,postroll,",
+creativeApi: "None,"
+},
+{
+name: "g_html5_video_m3u8",
+url: "class://VideoRenderer",
+contentType: "application/x-mpegurl,",
+adUnit: "video,",
+slotType: "preroll,midroll,postroll,",
+creativeApi: "None,"
+},
+{
+name: "g_html5_vpaid",
+url: "class://VPAIDRenderer",
+contentType: "text/js_ref,",
+adUnit: "video,fixed-size-interactive,app-interstitial,",
+slotType: "preroll,midroll,postroll,overlay,",
+creativeApi: "VPAID,"
+},
+{
+name: "g_html5_html_mraid_only",
+url: "class://HTMLRenderer",
+contentType: "text/html_doc_ref,text/html_doc_lit_mobile,",
+adUnit: "video,still-image,fixed-size-interactive,linear-animation,app-interstitial,",
+slotType: "preroll,midroll,postroll,overlay,display,",
+creativeApi: "MRAID-1.0,"
+},
+{
+name: "g_html5_vast_desktop",
+url: "class://VastTranslator",
+contentType: "external/vast-2,",
+adUnit: "video,still-image,fixed-size-interactive,text-ad,linear-animation,generic-overlay,video-click-to-content,slate,logo,logo-click-to-content,app-interstitial,",
+slotType: "preroll,midroll,postroll,overlay,display,",
+parameter: [
+{
+name: "translator.vast.asyncLoad",
+value: "true"
+}
+],
+creativeApi: "VPAID,MRAID-1.0,None,"
+},
+{
+name: "g_html5_video_mov",
+url: "class://VideoRenderer",
+contentType: "video/quicktime,video/quicktime-h264,video/mov,video/mov-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video/mov-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video/mov-mpeg4-640-480-less_eq_2500_kbps-aaclc,video/mov-h263,",
+adUnit: "video,",
+slotType: "preroll,midroll,postroll,",
+creativeApi: "None,"
+},
+{
+name: "g_html5_html_wo_mraid_since_5.13",
+url: "class://HTMLRenderer",
+contentType: "text/html_doc_ref,text/html_doc_lit_mobile,text/html_lit_nowrapper,",
+adUnit: "video,still-image,fixed-size-interactive,text-ad,logo-text-ad,linear-animation,generic-overlay,text-ad-click-to-content,still-image-click-to-content,generic-overlay-click-to-content,logo-text-ad-click-to-content,slate,logo,logo-click-to-content,player-skin,generic-overlay-click-to-content2,variable-size-interactive,app-interstitial,",
+slotType: "preroll,midroll,postroll,overlay,display,",
+creativeApi: "None,"
+},
+{
+name: "g_html5_vast3",
+url: "class://VastTranslator",
+contentType: "external/vast-3,",
+adUnit: "video,still-image,fixed-size-interactive,text-ad,linear-animation,generic-overlay,slate,logo,app-interstitial,",
+slotType: "preroll,midroll,postroll,overlay,",
+parameter: [
+{
+name: "translator.vast.asyncLoad",
+value: "true"
+}
+],
+creativeApi: "VPAID,MRAID-1.0,None,"
+}
+]
+}
+},
+visitor: {
+httpHeaders: [ ],
+state: [ ]
+},
+errors: {
+errors: [ ]
+},
+eventCallbacks: {
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+]
+},
+ads: {
+ads: [
+{
+adId: "27843469",
+noPreload: false,
+noLoad: false,
+adUnit: "55840",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3960340",
+baseUnit: "video",
+duration: "30",
+creativeRenditions: [
+{
+creativeRenditionId: "11707967",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://search.spotxchange.com/vast/2.0/237827?VPAID=JS&content_page_url=&player_width=1680&player_height=1050&s[gdpr]=1&user[consent]=BOVArIUOVArIUABABAENBq-AAAAht7_______9______9uz_Gv_v_f__33e8__9v_l_7_-___u_-33d4-_1vX99yfm1-7ftr3tp_86ues2_Xur_959_-njE&cb=1868088143",
+creativeApi: "VPAID",
+width: "1080",
+height: "720",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11623529",
+name: "SPOTX",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27841123",
+noPreload: false,
+noLoad: false,
+adUnit: "55840",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3960194",
+baseUnit: "video",
+duration: "30",
+creativeRenditions: [
+{
+creativeRenditionId: "11707392",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://search.spotxchange.com/vast/2.0/237828?VPAID=JS&content_page_url=&player_width=1680&player_height=1050&s[gdpr]=1&user[consent]=BOVArIUOVArIUABABAENBq-AAAAht7_______9______9uz_Gv_v_f__33e8__9v_l_7_-___u_-33d4-_1vX99yfm1-7ftr3tp_86ues2_Xur_959_-njE&cb=1101361568",
+creativeApi: "VPAID",
+width: "1080",
+height: "720",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11622960",
+name: "SPOTX",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27528108",
+noPreload: false,
+noLoad: false,
+adUnit: "55840",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3928837",
+baseUnit: "video",
+duration: "30",
+creativeRenditions: [
+{
+creativeRenditionId: "11545184",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://search.spotxchange.com/vast/2.0/237614?VPAID=JS&content_page_url=&player_width=1680&player_height=1050&s[gdpr]=1&user[consent]=BOVArIUOVArIUABABAENBq-AAAAht7_______9______9uz_Gv_v_f__33e8__9v_l_7_-___u_-33d4-_1vX99yfm1-7ftr3tp_86ues2_Xur_959_-njE&cb=1196874335",
+creativeApi: "VPAID",
+width: "1080",
+height: "720",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11461213",
+name: "SPOTX",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27767620",
+noPreload: false,
+noLoad: false,
+adUnit: "55840",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3954708",
+baseUnit: "video",
+duration: "30",
+creativeRenditions: [
+{
+creativeRenditionId: "11682459",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://vast.adsafeprotected.com/vast/fwjsvid/st/200008/29802102/skeleton.js?includeFlash=false&originalVast=https://bs.serving-sys.com/Serving?cn=display&c=23&pl=VAST&pli=26031342&PluID=0&pos=5957&ord=[timestamp]&cim=1",
+creativeApi: "VPAID",
+width: "640",
+height: "360",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11598110",
+name: "Default Asset for Rendition",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27766317",
+noPreload: false,
+noLoad: false,
+adUnit: "55840",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3954575",
+baseUnit: "video",
+duration: "20",
+creativeRenditions: [
+{
+creativeRenditionId: "11827514",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/ORAL_B_-_Spain_-_ES_OP-TT_DNS_OLVISP_010718_W25-44_Superpremium220_REACH-26229599_both.xml",
+creativeApi: "VPAID",
+width: "640",
+height: "360",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11742821",
+name: "Default Asset for Rendition",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11827515",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/ORAL_B_-_Spain_-_ES_OP-TT_DNS_OLVISP_010718_W25-44_Superpremium220_REACH-26229599_both.xml",
+creativeApi: "VPAID",
+width: "640",
+height: "360",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11742822",
+name: "Default Asset for Rendition",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27766790",
+noPreload: false,
+noLoad: false,
+adUnit: "55840",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3954633",
+baseUnit: "video",
+duration: "20",
+creativeRenditions: [
+{
+creativeRenditionId: "11827537",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/ARIELDASH_-_Spain_-_ES_AR-PO_DNS_OLV_010718_W25-34_DTP20_REACH-26047901_js.xml",
+creativeApi: "VPAID",
+width: "640",
+height: "360",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11742844",
+name: "Default Asset for Rendition",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27766561",
+noPreload: false,
+noLoad: false,
+adUnit: "55840",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3954599",
+baseUnit: "video",
+duration: "20",
+creativeRenditions: [
+{
+creativeRenditionId: "11827518",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/OLAY_-_Spain_-_ES_OL-TT_DNS_OLV_010918_W25-34_OLAYAMPLIFICATION_REACH-26266616_js.xml",
+creativeApi: "VPAID",
+width: "640",
+height: "360",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11742825",
+name: "Default Asset for Rendition",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27768088",
+noPreload: false,
+noLoad: false,
+adUnit: "55840",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3955057",
+baseUnit: "video",
+duration: "20",
+creativeRenditions: [
+{
+creativeRenditionId: "11827539",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/FAIRY_-_Spain_-_ES_FY-HW_DNS_OLVISP_011018_W25-44_SHAKE20_REACH-26241169_js.xml",
+creativeApi: "VPAID",
+width: "640",
+height: "360",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11742846",
+name: "Default Asset for Rendition",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27716531",
+noPreload: false,
+noLoad: false,
+adUnit: "55840",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3950412",
+baseUnit: "video",
+duration: "20.020",
+creativeRenditions: [
+{
+creativeRenditionId: "11661123",
+creativeApi: "None",
+width: "640",
+height: "360",
+preference: "0",
+adReplicaId: "0",
+bitrate: "968",
+parameters: [ ],
+asset: {
+id: "11576805",
+name: "gioseppowomanfw1820sec_360",
+url: "https://publi.atresmediapublicidad.com/mrm/gioseppowomanfw1820sec/video_SD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "2478809",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11661124",
+creativeApi: "None",
+width: "426",
+height: "240",
+preference: "0",
+bitrate: "721",
+parameters: [ ],
+asset: {
+id: "11576806",
+name: "gioseppowomanfw1820sec_240",
+url: "https://publi.atresmediapublicidad.com/mrm/gioseppowomanfw1820sec/video_LD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "1847378",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27765794",
+noPreload: false,
+noLoad: false,
+adUnit: "55840",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3954458",
+baseUnit: "video",
+duration: "15",
+creativeRenditions: [
+{
+creativeRenditionId: "11827561",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://vast.adsafeprotected.com/vast/fwjsvid/st/204540/29835583/skeleton.js?includeFlash=false&originalVast=https://ad.doubleclick.net/ddm/pfadx/N624.160370ANTENA3/B21743965.230094933;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml",
+creativeApi: "VPAID",
+width: "176",
+height: "144",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11742868",
+name: "Default Asset for Rendition",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27717530",
+noPreload: false,
+noLoad: false,
+adUnit: "55840",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3950501",
+baseUnit: "video",
+duration: "20.000",
+creativeRenditions: [
+{
+creativeRenditionId: "11661625",
+creativeApi: "None",
+width: "1920",
+height: "1080",
+preference: "0",
+bitrate: "5217",
+parameters: [ ],
+asset: {
+id: "11577305",
+name: "AdeslasPresuntoCulpable0918_1080",
+url: "https://publi.atresmediapublicidad.com/mrm/AdeslasPresuntoCulpable0918/video_FHD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "13357620",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11661626",
+creativeApi: "None",
+width: "1280",
+height: "720",
+preference: "0",
+bitrate: "3265",
+parameters: [ ],
+asset: {
+id: "11577306",
+name: "AdeslasPresuntoCulpable0918_720",
+url: "https://publi.atresmediapublicidad.com/mrm/AdeslasPresuntoCulpable0918/video_HD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "8359050",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11661627",
+creativeApi: "None",
+width: "854",
+height: "480",
+preference: "0",
+bitrate: "1760",
+parameters: [ ],
+asset: {
+id: "11577307",
+name: "AdeslasPresuntoCulpable0918_480",
+url: "https://publi.atresmediapublicidad.com/mrm/AdeslasPresuntoCulpable0918/video_FSD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "4507626",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11661628",
+creativeApi: "None",
+width: "640",
+height: "360",
+preference: "0",
+bitrate: "939",
+parameters: [ ],
+asset: {
+id: "11577308",
+name: "AdeslasPresuntoCulpable0918_360",
+url: "https://publi.atresmediapublicidad.com/mrm/AdeslasPresuntoCulpable0918/video_SD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "2404301",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11661629",
+creativeApi: "None",
+width: "426",
+height: "238",
+preference: "0",
+bitrate: "707",
+parameters: [ ],
+asset: {
+id: "11577309",
+name: "AdeslasPresuntoCulpable0918_240",
+url: "https://publi.atresmediapublicidad.com/mrm/AdeslasPresuntoCulpable0918/video_LD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "1812086",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27884396",
+noPreload: false,
+noLoad: false,
+adUnit: "55840",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3967530",
+baseUnit: "video",
+duration: "15",
+creativeRenditions: [
+{
+creativeRenditionId: "11740725",
+wrapperType: "external/vast-2",
+wrapperUrl: "",
+creativeApi: "VPAID",
+width: "640",
+height: "360",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11656170",
+name: "Default Asset for Rendition",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27841122",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3960193",
+baseUnit: "video",
+duration: "30",
+creativeRenditions: [
+{
+creativeRenditionId: "11707391",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://search.spotxchange.com/vast/2.0/237828?VPAID=JS&content_page_url=&player_width=1680&player_height=1050&s[gdpr]=1&user[consent]=BOVArIUOVArIUABABAENBq-AAAAht7_______9______9uz_Gv_v_f__33e8__9v_l_7_-___u_-33d4-_1vX99yfm1-7ftr3tp_86ues2_Xur_959_-njE&cb=1774674106",
+creativeApi: "VPAID",
+width: "1080",
+height: "720",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11622959",
+name: "SPOTX",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27843468",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3960339",
+baseUnit: "video",
+duration: "30",
+creativeRenditions: [
+{
+creativeRenditionId: "11707966",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://search.spotxchange.com/vast/2.0/237827?VPAID=JS&content_page_url=&player_width=1680&player_height=1050&s[gdpr]=1&user[consent]=BOVArIUOVArIUABABAENBq-AAAAht7_______9______9uz_Gv_v_f__33e8__9v_l_7_-___u_-33d4-_1vX99yfm1-7ftr3tp_86ues2_Xur_959_-njE&cb=1421187944",
+creativeApi: "VPAID",
+width: "1080",
+height: "720",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11623528",
+name: "SPOTX",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27528109",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3928835",
+baseUnit: "video",
+duration: "30",
+creativeRenditions: [
+{
+creativeRenditionId: "11545180",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://search.spotxchange.com/vast/2.0/237614?VPAID=JS&content_page_url=&player_width=1680&player_height=1050&s[gdpr]=1&user[consent]=BOVArIUOVArIUABABAENBq-AAAAht7_______9______9uz_Gv_v_f__33e8__9v_l_7_-___u_-33d4-_1vX99yfm1-7ftr3tp_86ues2_Xur_959_-njE&cb=1820267451",
+creativeApi: "VPAID",
+width: "1080",
+height: "720",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11461209",
+name: "SPOTX",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27716532",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3950413",
+baseUnit: "video",
+duration: "20.020",
+creativeRenditions: [
+{
+creativeRenditionId: "11661125",
+creativeApi: "None",
+width: "640",
+height: "360",
+preference: "0",
+adReplicaId: "1",
+bitrate: "968",
+parameters: [ ],
+asset: {
+id: "11576807",
+name: "gioseppowomanfw1820sec_360",
+url: "https://publi.atresmediapublicidad.com/mrm/gioseppowomanfw1820sec/video_SD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "2478809",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11661126",
+creativeApi: "None",
+width: "426",
+height: "240",
+preference: "0",
+bitrate: "721",
+parameters: [ ],
+asset: {
+id: "11576808",
+name: "gioseppowomanfw1820sec_240",
+url: "https://publi.atresmediapublicidad.com/mrm/gioseppowomanfw1820sec/video_LD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "1847378",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11661125",
+creativeApi: "None",
+width: "640",
+height: "360",
+preference: "0",
+bitrate: "968",
+parameters: [ ],
+asset: {
+id: "11576807",
+name: "gioseppowomanfw1820sec_360",
+url: "https://publi.atresmediapublicidad.com/mrm/gioseppowomanfw1820sec/video_SD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "2478809",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27765795",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3954459",
+baseUnit: "video",
+duration: "15",
+creativeRenditions: [
+{
+creativeRenditionId: "11827567",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://vast.adsafeprotected.com/vast/fwjsvid/st/204540/29835583/skeleton.js?includeFlash=false&originalVast=https://ad.doubleclick.net/ddm/pfadx/N624.160370ANTENA3/B21743965.230094933;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text/xml",
+creativeApi: "VPAID",
+width: "176",
+height: "144",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11742874",
+name: "Default Asset for Rendition",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27717531",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3950503",
+baseUnit: "video",
+duration: "20.000",
+creativeRenditions: [
+{
+creativeRenditionId: "11661635",
+creativeApi: "None",
+width: "1920",
+height: "1080",
+preference: "0",
+bitrate: "5217",
+parameters: [ ],
+asset: {
+id: "11577315",
+name: "AdeslasPresuntoCulpable0918_1080",
+url: "https://publi.atresmediapublicidad.com/mrm/AdeslasPresuntoCulpable0918/video_FHD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "13357620",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11661636",
+creativeApi: "None",
+width: "1280",
+height: "720",
+preference: "0",
+bitrate: "3265",
+parameters: [ ],
+asset: {
+id: "11577316",
+name: "AdeslasPresuntoCulpable0918_720",
+url: "https://publi.atresmediapublicidad.com/mrm/AdeslasPresuntoCulpable0918/video_HD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "8359050",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11661637",
+creativeApi: "None",
+width: "854",
+height: "480",
+preference: "0",
+bitrate: "1760",
+parameters: [ ],
+asset: {
+id: "11577317",
+name: "AdeslasPresuntoCulpable0918_480",
+url: "https://publi.atresmediapublicidad.com/mrm/AdeslasPresuntoCulpable0918/video_FSD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "4507626",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11661638",
+creativeApi: "None",
+width: "640",
+height: "360",
+preference: "0",
+bitrate: "939",
+parameters: [ ],
+asset: {
+id: "11577318",
+name: "AdeslasPresuntoCulpable0918_360",
+url: "https://publi.atresmediapublicidad.com/mrm/AdeslasPresuntoCulpable0918/video_SD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "2404301",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11661639",
+creativeApi: "None",
+width: "426",
+height: "238",
+preference: "0",
+bitrate: "707",
+parameters: [ ],
+asset: {
+id: "11577319",
+name: "AdeslasPresuntoCulpable0918_240",
+url: "https://publi.atresmediapublicidad.com/mrm/AdeslasPresuntoCulpable0918/video_LD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "1812086",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27884397",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3967530",
+baseUnit: "video",
+duration: "15",
+creativeRenditions: [
+{
+creativeRenditionId: "11740725",
+wrapperType: "external/vast-2",
+wrapperUrl: "",
+creativeApi: "VPAID",
+width: "640",
+height: "360",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11656170",
+name: "Default Asset for Rendition",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27926955",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3973114",
+baseUnit: "video",
+duration: "30",
+creativeRenditions: [
+{
+creativeRenditionId: "11767708",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://search.spotxchange.com/vast/2.0/237827?VPAID=JS&content_page_url=&player_width=1680&player_height=1050&s[gdpr]=1&user[consent]=BOVArIUOVArIUABABAENBq-AAAAht7_______9______9uz_Gv_v_f__33e8__9v_l_7_-___u_-33d4-_1vX99yfm1-7ftr3tp_86ues2_Xur_959_-njE&cb=1174133876",
+creativeApi: "VPAID",
+width: "1080",
+height: "720",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11683119",
+name: "SPOTX",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27927212",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3973137",
+baseUnit: "video",
+duration: "30",
+creativeRenditions: [
+{
+creativeRenditionId: "11767837",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://search.spotxchange.com/vast/2.0/237828?VPAID=JS&content_page_url=&player_width=1680&player_height=1050&s[gdpr]=1&user[consent]=BOVArIUOVArIUABABAENBq-AAAAht7_______9______9uz_Gv_v_f__33e8__9v_l_7_-___u_-33d4-_1vX99yfm1-7ftr3tp_86ues2_Xur_959_-njE&cb=719271069",
+creativeApi: "VPAID",
+width: "1080",
+height: "720",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11683248",
+name: "SPOTX",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27927266",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3973142",
+baseUnit: "video",
+duration: "30",
+creativeRenditions: [
+{
+creativeRenditionId: "11767845",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://search.spotxchange.com/vast/2.0/237828?VPAID=JS&content_page_url=&player_width=1680&player_height=1050&s[gdpr]=1&user[consent]=BOVArIUOVArIUABABAENBq-AAAAht7_______9______9uz_Gv_v_f__33e8__9v_l_7_-___u_-33d4-_1vX99yfm1-7ftr3tp_86ues2_Xur_959_-njE&cb=1147996878",
+creativeApi: "VPAID",
+width: "1080",
+height: "720",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11683256",
+name: "SPOTX",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27927264",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3973141",
+baseUnit: "video",
+duration: "30",
+creativeRenditions: [
+{
+creativeRenditionId: "11767844",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://search.spotxchange.com/vast/2.0/237828?VPAID=JS&content_page_url=&player_width=1680&player_height=1050&s[gdpr]=1&user[consent]=BOVArIUOVArIUABABAENBq-AAAAht7_______9______9uz_Gv_v_f__33e8__9v_l_7_-___u_-33d4-_1vX99yfm1-7ftr3tp_86ues2_Xur_959_-njE&cb=132520203",
+creativeApi: "VPAID",
+width: "1080",
+height: "720",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11683255",
+name: "SPOTX",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27915394",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3971975",
+baseUnit: "video",
+duration: "30",
+creativeRenditions: [
+{
+creativeRenditionId: "11762065",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://search.spotxchange.com/vast/2.0/237614?VPAID=JS&content_page_url=&player_width=1680&player_height=1050&s[gdpr]=1&user[consent]=BOVArIUOVArIUABABAENBq-AAAAht7_______9______9uz_Gv_v_f__33e8__9v_l_7_-___u_-33d4-_1vX99yfm1-7ftr3tp_86ues2_Xur_959_-njE&cb=1998179816",
+creativeApi: "VPAID",
+width: "1080",
+height: "720",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11677477",
+name: "SPOTX",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27915435",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3972000",
+baseUnit: "video",
+duration: "30",
+creativeRenditions: [
+{
+creativeRenditionId: "11762112",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://search.spotxchange.com/vast/2.0/237614?VPAID=JS&content_page_url=&player_width=1680&player_height=1050&s[gdpr]=1&user[consent]=BOVArIUOVArIUABABAENBq-AAAAht7_______9______9uz_Gv_v_f__33e8__9v_l_7_-___u_-33d4-_1vX99yfm1-7ftr3tp_86ues2_Xur_959_-njE&cb=1859254309",
+creativeApi: "VPAID",
+width: "1080",
+height: "720",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11677523",
+name: "SPOTX",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27926660",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3973094",
+baseUnit: "video",
+duration: "30",
+creativeRenditions: [
+{
+creativeRenditionId: "11767572",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://search.spotxchange.com/vast/2.0/237827?VPAID=JS&content_page_url=&player_width=1680&player_height=1050&s[gdpr]=1&user[consent]=BOVArIUOVArIUABABAENBq-AAAAht7_______9______9uz_Gv_v_f__33e8__9v_l_7_-___u_-33d4-_1vX99yfm1-7ftr3tp_86ues2_Xur_959_-njE&cb=1269844718",
+creativeApi: "VPAID",
+width: "1080",
+height: "720",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11682974",
+name: "SPOTX",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27915417",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3971991",
+baseUnit: "video",
+duration: "30",
+creativeRenditions: [
+{
+creativeRenditionId: "11762103",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://search.spotxchange.com/vast/2.0/237614?VPAID=JS&content_page_url=&player_width=1680&player_height=1050&s[gdpr]=1&user[consent]=BOVArIUOVArIUABABAENBq-AAAAht7_______9______9uz_Gv_v_f__33e8__9v_l_7_-___u_-33d4-_1vX99yfm1-7ftr3tp_86ues2_Xur_959_-njE&cb=886815122",
+creativeApi: "VPAID",
+width: "1080",
+height: "720",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11677514",
+name: "SPOTX",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27719115",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3950609",
+baseUnit: "video",
+duration: "30.000",
+creativeRenditions: [
+{
+creativeRenditionId: "11662255",
+creativeApi: "None",
+width: "1920",
+height: "1080",
+preference: "0",
+adReplicaId: "0",
+bitrate: "3257",
+parameters: [ ],
+asset: {
+id: "11577932",
+name: "ELPOZOFABRICAINSTITUCIONAL_1080",
+url: "https://publi.atresmediapublicidad.com/mrm/ELPOZOFABRICAINSTITUCIONAL/video_FHD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "12508172",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11662256",
+creativeApi: "None",
+width: "1280",
+height: "720",
+preference: "0",
+bitrate: "2272",
+parameters: [ ],
+asset: {
+id: "11577933",
+name: "ELPOZOFABRICAINSTITUCIONAL_720",
+url: "https://publi.atresmediapublicidad.com/mrm/ELPOZOFABRICAINSTITUCIONAL/video_HD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "8726377",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11662257",
+creativeApi: "None",
+width: "854",
+height: "480",
+preference: "0",
+bitrate: "1207",
+parameters: [ ],
+asset: {
+id: "11577934",
+name: "ELPOZOFABRICAINSTITUCIONAL_480",
+url: "https://publi.atresmediapublicidad.com/mrm/ELPOZOFABRICAINSTITUCIONAL/video_FSD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "4638446",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11662258",
+creativeApi: "None",
+width: "640",
+height: "360",
+preference: "0",
+bitrate: "890",
+parameters: [ ],
+asset: {
+id: "11577935",
+name: "ELPOZOFABRICAINSTITUCIONAL_360",
+url: "https://publi.atresmediapublicidad.com/mrm/ELPOZOFABRICAINSTITUCIONAL/video_SD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "3420296",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11662259",
+creativeApi: "None",
+width: "426",
+height: "238",
+preference: "0",
+bitrate: "567",
+parameters: [ ],
+asset: {
+id: "11577936",
+name: "ELPOZOFABRICAINSTITUCIONAL_240",
+url: "https://publi.atresmediapublicidad.com/mrm/ELPOZOFABRICAINSTITUCIONAL/video_LD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "2177364",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11662255",
+creativeApi: "None",
+width: "1920",
+height: "1080",
+preference: "0",
+adReplicaId: "1",
+bitrate: "3257",
+parameters: [ ],
+asset: {
+id: "11577932",
+name: "ELPOZOFABRICAINSTITUCIONAL_1080",
+url: "https://publi.atresmediapublicidad.com/mrm/ELPOZOFABRICAINSTITUCIONAL/video_FHD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "12508172",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27767621",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3954710",
+baseUnit: "video",
+duration: "15",
+creativeRenditions: [
+{
+creativeRenditionId: "11682463",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://vast.adsafeprotected.com/vast/fwjsvid/st/200008/29802103/skeleton.js?includeFlash=false&originalVast=https://bs.serving-sys.com/Serving?cn=display&c=23&pl=VAST&pli=26031334&PluID=0&pos=9860&ord=[timestamp]&cim=1",
+creativeApi: "VPAID",
+width: "640",
+height: "360",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11598114",
+name: "Default Asset for Rendition",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+},
+{
+creativeId: "3954708",
+baseUnit: "video",
+duration: "30",
+creativeRenditions: [
+{
+creativeRenditionId: "11682459",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://vast.adsafeprotected.com/vast/fwjsvid/st/200008/29802102/skeleton.js?includeFlash=false&originalVast=https://bs.serving-sys.com/Serving?cn=display&c=23&pl=VAST&pli=26031342&PluID=0&pos=5957&ord=[timestamp]&cim=1",
+creativeApi: "VPAID",
+width: "640",
+height: "360",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11598110",
+name: "Default Asset for Rendition",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27766318",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3954575",
+baseUnit: "video",
+duration: "20",
+creativeRenditions: [
+{
+creativeRenditionId: "11827514",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/ORAL_B_-_Spain_-_ES_OP-TT_DNS_OLVISP_010718_W25-44_Superpremium220_REACH-26229599_both.xml",
+creativeApi: "VPAID",
+width: "640",
+height: "360",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11742821",
+name: "Default Asset for Rendition",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11827515",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/ORAL_B_-_Spain_-_ES_OP-TT_DNS_OLVISP_010718_W25-44_Superpremium220_REACH-26229599_both.xml",
+creativeApi: "VPAID",
+width: "640",
+height: "360",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11742822",
+name: "Default Asset for Rendition",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27766791",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3954633",
+baseUnit: "video",
+duration: "20",
+creativeRenditions: [
+{
+creativeRenditionId: "11827537",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/ARIELDASH_-_Spain_-_ES_AR-PO_DNS_OLV_010718_W25-34_DTP20_REACH-26047901_js.xml",
+creativeApi: "VPAID",
+width: "640",
+height: "360",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11742844",
+name: "Default Asset for Rendition",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27766562",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3954599",
+baseUnit: "video",
+duration: "20",
+creativeRenditions: [
+{
+creativeRenditionId: "11827518",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/OLAY_-_Spain_-_ES_OL-TT_DNS_OLV_010918_W25-34_OLAYAMPLIFICATION_REACH-26266616_js.xml",
+creativeApi: "VPAID",
+width: "640",
+height: "360",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11742825",
+name: "Default Asset for Rendition",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27768089",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3955057",
+baseUnit: "video",
+duration: "20",
+creativeRenditions: [
+{
+creativeRenditionId: "11827539",
+wrapperType: "external/vast-2",
+wrapperUrl: "https://svastx.moatads.com/caratpgspainsizmekvideo600272550943/FAIRY_-_Spain_-_ES_FY-HW_DNS_OLVISP_011018_W25-44_SHAKE20_REACH-26241169_js.xml",
+creativeApi: "VPAID",
+width: "640",
+height: "360",
+preference: "0",
+parameters: [ ],
+asset: {
+id: "11742846",
+name: "Default Asset for Rendition",
+contentType: "text/js_ref",
+mimeType: "text/javascript",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+},
+{
+adId: "27822024",
+noPreload: false,
+noLoad: false,
+adUnit: "55842",
+isWrapper: false,
+required: false,
+creatives: [
+{
+creativeId: "3951354",
+baseUnit: "video",
+duration: "29.940",
+creativeRenditions: [
+{
+creativeRenditionId: "11665282",
+creativeApi: "None",
+width: "640",
+height: "358",
+preference: "0",
+bitrate: "826",
+parameters: [ ],
+asset: {
+id: "11580974",
+name: "iPhonePosTMovistar_360",
+url: "https://publi.atresmediapublicidad.com/mrm/iPhonePosTMovistar/video_SD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "3068958",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+},
+{
+creativeRenditionId: "11665283",
+creativeApi: "None",
+width: "426",
+height: "238",
+preference: "0",
+bitrate: "534",
+parameters: [ ],
+asset: {
+id: "11580975",
+name: "iPhonePosTMovistar_240",
+url: "https://publi.atresmediapublicidad.com/mrm/iPhonePosTMovistar/video_LD.mp4",
+contentType: "video/mp4-h264",
+mimeType: "video/mp4",
+bytes: "1982976",
+deliveryMethod: "progressive"
+},
+otherAssets: [ ]
+}
+],
+parameters: [ ]
+}
+]
+}
+]
+},
+siteSection: {
+customId: "atresplayer_desktop",
+pageRandom: "88.58456876262261",
+videoPlayer: {
+videoAsset: {
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&cn=videoView&et=i&uxnw=&uxss=&uxct=",
+name: "videoView",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+customId: "5b9f64067ed1a8176b10eb66",
+random: "99.67063389732328",
+adSlots: [
+{
+eventCallbacks: [ ],
+customId: "pre",
+selectedAds: [ ],
+timePosition: "0",
+adUnit: "preroll"
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&cn=slotImpression&et=i&tpos=720&init=1&slid=3,4,5",
+name: "slotImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&cn=slotEnd&et=i&tpos=720&init=1&slid=3,4,5",
+name: "slotEnd",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+customId: "mid720000",
+selectedAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841122&reid=11707391&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841122&reid=11707391&arid=0&auid=&cn=defaultImpression&et=i&_cc=27841122,11707391,39373.,39373.,1538657579,1&tpos=720&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841122&reid=11707391&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=720&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27841122",
+creativeId: "3960193",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11707391",
+companionAds: [ ],
+fallbackAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915417&reid=11762103&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915417&reid=11762103&arid=1&auid=&cn=defaultImpression&et=i&_cc=27915417,11762103,39373.,39373.,1538657579,1&tpos=720&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915417&reid=11762103&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=720&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27915417",
+creativeId: "3971991",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11762103",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926660&reid=11767572&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926660&reid=11767572&arid=1&auid=&cn=defaultImpression&et=i&_cc=27926660,11767572,39373.,39373.,1538657579,1&tpos=720&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926660&reid=11767572&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=720&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27926660",
+creativeId: "3973094",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11767572",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915435&reid=11762112&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915435&reid=11762112&arid=1&auid=&cn=defaultImpression&et=i&_cc=27915435,11762112,39373.,39373.,1538657579,1&tpos=720&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915435&reid=11762112&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=720&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27915435",
+creativeId: "3972000",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11762112",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915394&reid=11762065&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915394&reid=11762065&arid=1&auid=&cn=defaultImpression&et=i&_cc=27915394,11762065,39373.,39373.,1538657579,1&tpos=720&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915394&reid=11762065&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=720&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27915394",
+creativeId: "3971975",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11762065",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927264&reid=11767844&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927264&reid=11767844&arid=1&auid=&cn=defaultImpression&et=i&_cc=27927264,11767844,39373.,39373.,1538657579,1&tpos=720&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927264&reid=11767844&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=720&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27927264",
+creativeId: "3973141",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11767844",
+companionAds: [ ],
+fallbackAds: [ ]
+}
+]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843468&reid=11707966&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843468&reid=11707966&arid=0&auid=&cn=defaultImpression&et=i&_cc=27843468,11707966,39373.,39373.,1538657579,1&tpos=720&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843468&reid=11707966&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=720&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27843468",
+creativeId: "3960339",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11707966",
+companionAds: [ ],
+fallbackAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927266&reid=11767845&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927266&reid=11767845&arid=1&auid=&cn=defaultImpression&et=i&_cc=27927266,11767845,39373.,39373.,1538657579,1&tpos=720&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927266&reid=11767845&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=720&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27927266",
+creativeId: "3973142",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11767845",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927212&reid=11767837&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927212&reid=11767837&arid=1&auid=&cn=defaultImpression&et=i&_cc=27927212,11767837,39373.,39373.,1538657579,1&tpos=720&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927212&reid=11767837&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=720&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27927212",
+creativeId: "3973137",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11767837",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926955&reid=11767708&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926955&reid=11767708&arid=1&auid=&cn=defaultImpression&et=i&_cc=27926955,11767708,39373.,39373.,1538657579,1&tpos=720&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926955&reid=11767708&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=720&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27926955",
+creativeId: "3973114",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11767708",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27884397&reid=11740725&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27884397&reid=11740725&arid=1&auid=&cn=defaultImpression&et=i&_cc=27884397,11740725,,39373.,1538657579,1&tpos=720&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27884397&reid=11740725&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=720&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27884397",
+creativeId: "3967530",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11740725",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27717531&reid=11661635&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27717531&reid=11661635&arid=1&auid=&cn=defaultImpression&et=i&_cc=27717531,11661635,,39373.,1538657579,1&tpos=720&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27717531&reid=11661635&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=720&cr=https%3A//www.seguros.adeslas.es",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: true,
+trackingUrls: [ ]
+}
+],
+adId: "27717531",
+creativeId: "3950503",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11661635",
+companionAds: [ ],
+fallbackAds: [ ]
+}
+]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528109&reid=11545180&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528109&reid=11545180&arid=0&auid=&cn=defaultImpression&et=i&_cc=27528109,11545180,39373.,39373.,1538657579,1&tpos=720&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528109&reid=11545180&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=720&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27528109",
+creativeId: "3928835",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11545180",
+companionAds: [ ],
+fallbackAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27765795&reid=11827567&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27765795&reid=11827567&arid=0&auid=&cn=defaultImpression&et=i&_cc=27765795,11827567,,39373.,1538657579,1&tpos=720&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27765795&reid=11827567&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=720&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27765795",
+creativeId: "3954459",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11827567",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27716532&reid=11661125&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27716532&reid=11661125&arid=1&auid=&cn=defaultImpression&et=i&_cc=27716532,11661125,,39373.,1538657579,1&tpos=720&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=https%3A//bs.serving-sys.com/serving/adServer.bs%3Fcn%3Ddisplay%26c%3D19%26mc%3Dimp%26pli%3D26167504%26PluID%3D0%26ord%3D406475231%26rtu%3D-1",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27716532&reid=11661125&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=720&cr=https%3A//bs.serving-sys.com/serving/adServer.bs%3Fcn%3Dtrd%26mc%3Dclick%26pli%3D26167504%26PluID%3D0%26ord%3D406475231",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: true,
+trackingUrls: [ ]
+}
+],
+adId: "27716532",
+creativeId: "3950413",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11661125",
+companionAds: [ ],
+fallbackAds: [ ]
+}
+]
+}
+],
+timePosition: "720",
+timePositionClass: "midroll",
+adUnit: "midroll"
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&cn=slotImpression&et=i&tpos=1440&init=1&slid=6,7,8",
+name: "slotImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&cn=slotEnd&et=i&tpos=1440&init=1&slid=6,7,8",
+name: "slotEnd",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+customId: "mid1440000",
+selectedAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915417&reid=11762103&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915417&reid=11762103&arid=0&auid=&cn=defaultImpression&et=i&_cc=27915417,11762103,39373.,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915417&reid=11762103&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27915417",
+creativeId: "3971991",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11762103",
+companionAds: [ ],
+fallbackAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841122&reid=11707391&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841122&reid=11707391&arid=1&auid=&cn=defaultImpression&et=i&_cc=27841122,11707391,39373.,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841122&reid=11707391&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27841122",
+creativeId: "3960193",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11707391",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843468&reid=11707966&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843468&reid=11707966&arid=1&auid=&cn=defaultImpression&et=i&_cc=27843468,11707966,39373.,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843468&reid=11707966&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27843468",
+creativeId: "3960339",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11707966",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528109&reid=11545180&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528109&reid=11545180&arid=1&auid=&cn=defaultImpression&et=i&_cc=27528109,11545180,39373.,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528109&reid=11545180&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27528109",
+creativeId: "3928835",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11545180",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915394&reid=11762065&arid=2&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915394&reid=11762065&arid=2&auid=&cn=defaultImpression&et=i&_cc=27915394,11762065,39373.,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915394&reid=11762065&arid=2&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27915394",
+creativeId: "3971975",
+replicaId: "2",
+networkId: "514966",
+creativeRenditionId: "11762065",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927264&reid=11767844&arid=2&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927264&reid=11767844&arid=2&auid=&cn=defaultImpression&et=i&_cc=27927264,11767844,39373.,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927264&reid=11767844&arid=2&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27927264",
+creativeId: "3973141",
+replicaId: "2",
+networkId: "514966",
+creativeRenditionId: "11767844",
+companionAds: [ ],
+fallbackAds: [ ]
+}
+]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926660&reid=11767572&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926660&reid=11767572&arid=0&auid=&cn=defaultImpression&et=i&_cc=27926660,11767572,39373.,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926660&reid=11767572&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27926660",
+creativeId: "3973094",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11767572",
+companionAds: [ ],
+fallbackAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927266&reid=11767845&arid=2&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927266&reid=11767845&arid=2&auid=&cn=defaultImpression&et=i&_cc=27927266,11767845,39373.,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927266&reid=11767845&arid=2&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27927266",
+creativeId: "3973142",
+replicaId: "2",
+networkId: "514966",
+creativeRenditionId: "11767845",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927212&reid=11767837&arid=2&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927212&reid=11767837&arid=2&auid=&cn=defaultImpression&et=i&_cc=27927212,11767837,39373.,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927212&reid=11767837&arid=2&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27927212",
+creativeId: "3973137",
+replicaId: "2",
+networkId: "514966",
+creativeRenditionId: "11767837",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926955&reid=11767708&arid=2&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926955&reid=11767708&arid=2&auid=&cn=defaultImpression&et=i&_cc=27926955,11767708,39373.,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926955&reid=11767708&arid=2&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27926955",
+creativeId: "3973114",
+replicaId: "2",
+networkId: "514966",
+creativeRenditionId: "11767708",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27765795&reid=11827567&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27765795&reid=11827567&arid=1&auid=&cn=defaultImpression&et=i&_cc=27765795,11827567,,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27765795&reid=11827567&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27765795",
+creativeId: "3954459",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11827567",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27768089&reid=11827539&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27768089&reid=11827539&arid=0&auid=&cn=defaultImpression&et=i&_cc=27768089,11827539,,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27768089&reid=11827539&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27768089",
+creativeId: "3955057",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11827539",
+companionAds: [ ],
+fallbackAds: [ ]
+}
+]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915435&reid=11762112&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915435&reid=11762112&arid=0&auid=&cn=defaultImpression&et=i&_cc=27915435,11762112,39373.,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915435&reid=11762112&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27915435",
+creativeId: "3972000",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11762112",
+companionAds: [ ],
+fallbackAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766562&reid=11827518&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766562&reid=11827518&arid=0&auid=&cn=defaultImpression&et=i&_cc=27766562,11827518,,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766562&reid=11827518&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27766562",
+creativeId: "3954599",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11827518",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766791&reid=11827537&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766791&reid=11827537&arid=0&auid=&cn=defaultImpression&et=i&_cc=27766791,11827537,,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766791&reid=11827537&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27766791",
+creativeId: "3954633",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11827537",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766318&reid=11827514&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766318&reid=11827514&arid=0&auid=&cn=defaultImpression&et=i&_cc=27766318,11827514,,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766318&reid=11827514&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27766318",
+creativeId: "3954575",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11827514",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27767621&reid=11682463&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27767621&reid=11682463&arid=0&auid=&cn=defaultImpression&et=i&_cc=27767621,11682463,,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27767621&reid=11682463&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27767621",
+creativeId: "3954710",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11682463",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27719115&reid=11662255&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27719115&reid=11662255&arid=0&auid=&cn=defaultImpression&et=i&_cc=27719115,11662255,,39373.,1538657579,1&tpos=1440&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=https%3A//bs.serving-sys.com/serving/adServer.bs%3Fcn%3Ddisplay%26c%3D19%26mc%3Dimp%26pli%3D26150072%26PluID%3D0%26ord%3D978679455%26rtu%3D-1",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27719115&reid=11662255&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=1440&cr=https%3A//bs.serving-sys.com/serving/adServer.bs%3Fcn%3Dtrd%26mc%3Dclick%26pli%3D26150072%26PluID%3D0%26ord%3D978679455",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: true,
+trackingUrls: [ ]
+}
+],
+adId: "27719115",
+creativeId: "3950609",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11662255",
+companionAds: [ ],
+fallbackAds: [ ]
+}
+]
+}
+],
+timePosition: "1440",
+timePositionClass: "midroll",
+adUnit: "midroll"
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&cn=slotImpression&et=i&tpos=2160&init=1&slid=9,10,11",
+name: "slotImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&cn=slotEnd&et=i&tpos=2160&init=1&slid=9,10,11",
+name: "slotEnd",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+customId: "mid2160000",
+selectedAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915394&reid=11762065&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915394&reid=11762065&arid=0&auid=&cn=defaultImpression&et=i&_cc=27915394,11762065,39373.,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915394&reid=11762065&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27915394",
+creativeId: "3971975",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11762065",
+companionAds: [ ],
+fallbackAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841122&reid=11707391&arid=2&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841122&reid=11707391&arid=2&auid=&cn=defaultImpression&et=i&_cc=27841122,11707391,39373.,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841122&reid=11707391&arid=2&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27841122",
+creativeId: "3960193",
+replicaId: "2",
+networkId: "514966",
+creativeRenditionId: "11707391",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843468&reid=11707966&arid=2&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843468&reid=11707966&arid=2&auid=&cn=defaultImpression&et=i&_cc=27843468,11707966,39373.,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843468&reid=11707966&arid=2&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27843468",
+creativeId: "3960339",
+replicaId: "2",
+networkId: "514966",
+creativeRenditionId: "11707966",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528109&reid=11545180&arid=2&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528109&reid=11545180&arid=2&auid=&cn=defaultImpression&et=i&_cc=27528109,11545180,39373.,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528109&reid=11545180&arid=2&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27528109",
+creativeId: "3928835",
+replicaId: "2",
+networkId: "514966",
+creativeRenditionId: "11545180",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915417&reid=11762103&arid=2&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915417&reid=11762103&arid=2&auid=&cn=defaultImpression&et=i&_cc=27915417,11762103,39373.,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915417&reid=11762103&arid=2&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27915417",
+creativeId: "3971991",
+replicaId: "2",
+networkId: "514966",
+creativeRenditionId: "11762103",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926660&reid=11767572&arid=2&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926660&reid=11767572&arid=2&auid=&cn=defaultImpression&et=i&_cc=27926660,11767572,39373.,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926660&reid=11767572&arid=2&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27926660",
+creativeId: "3973094",
+replicaId: "2",
+networkId: "514966",
+creativeRenditionId: "11767572",
+companionAds: [ ],
+fallbackAds: [ ]
+}
+]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927264&reid=11767844&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927264&reid=11767844&arid=0&auid=&cn=defaultImpression&et=i&_cc=27927264,11767844,39373.,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927264&reid=11767844&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27927264",
+creativeId: "3973141",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11767844",
+companionAds: [ ],
+fallbackAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915435&reid=11762112&arid=2&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915435&reid=11762112&arid=2&auid=&cn=defaultImpression&et=i&_cc=27915435,11762112,39373.,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915435&reid=11762112&arid=2&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27915435",
+creativeId: "3972000",
+replicaId: "2",
+networkId: "514966",
+creativeRenditionId: "11762112",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927212&reid=11767837&arid=3&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927212&reid=11767837&arid=3&auid=&cn=defaultImpression&et=i&_cc=27927212,11767837,39373.,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927212&reid=11767837&arid=3&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27927212",
+creativeId: "3973137",
+replicaId: "3",
+networkId: "514966",
+creativeRenditionId: "11767837",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926955&reid=11767708&arid=3&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926955&reid=11767708&arid=3&auid=&cn=defaultImpression&et=i&_cc=27926955,11767708,39373.,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926955&reid=11767708&arid=3&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27926955",
+creativeId: "3973114",
+replicaId: "3",
+networkId: "514966",
+creativeRenditionId: "11767708",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27765795&reid=11827567&arid=2&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27765795&reid=11827567&arid=2&auid=&cn=defaultImpression&et=i&_cc=27765795,11827567,,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27765795&reid=11827567&arid=2&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27765795",
+creativeId: "3954459",
+replicaId: "2",
+networkId: "514966",
+creativeRenditionId: "11827567",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27768089&reid=11827539&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27768089&reid=11827539&arid=1&auid=&cn=defaultImpression&et=i&_cc=27768089,11827539,,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27768089&reid=11827539&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27768089",
+creativeId: "3955057",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11827539",
+companionAds: [ ],
+fallbackAds: [ ]
+}
+]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927266&reid=11767845&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927266&reid=11767845&arid=0&auid=&cn=defaultImpression&et=i&_cc=27927266,11767845,39373.,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927266&reid=11767845&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27927266",
+creativeId: "3973142",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11767845",
+companionAds: [ ],
+fallbackAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766562&reid=11827518&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766562&reid=11827518&arid=1&auid=&cn=defaultImpression&et=i&_cc=27766562,11827518,,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766562&reid=11827518&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27766562",
+creativeId: "3954599",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11827518",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766791&reid=11827537&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766791&reid=11827537&arid=1&auid=&cn=defaultImpression&et=i&_cc=27766791,11827537,,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766791&reid=11827537&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27766791",
+creativeId: "3954633",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11827537",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766318&reid=11827514&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766318&reid=11827514&arid=1&auid=&cn=defaultImpression&et=i&_cc=27766318,11827514,,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766318&reid=11827514&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27766318",
+creativeId: "3954575",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11827514",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27767621&reid=11682459&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27767621&reid=11682459&arid=1&auid=&cn=defaultImpression&et=i&_cc=27767621,11682459,,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27767621&reid=11682459&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27767621",
+creativeId: "3954708",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11682459",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27719115&reid=11662255&arid=1&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27719115&reid=11662255&arid=1&auid=&cn=defaultImpression&et=i&_cc=27719115,11662255,,39373.,1538657579,1&tpos=2160&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=https%3A//bs.serving-sys.com/serving/adServer.bs%3Fcn%3Ddisplay%26c%3D19%26mc%3Dimp%26pli%3D26150072%26PluID%3D0%26ord%3D531708046%26rtu%3D-1",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27719115&reid=11662255&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=2160&cr=https%3A//bs.serving-sys.com/serving/adServer.bs%3Fcn%3Dtrd%26mc%3Dclick%26pli%3D26150072%26PluID%3D0%26ord%3D531708046",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: true,
+trackingUrls: [ ]
+}
+],
+adId: "27719115",
+creativeId: "3950609",
+replicaId: "1",
+networkId: "514966",
+creativeRenditionId: "11662255",
+companionAds: [ ],
+fallbackAds: [ ]
+}
+]
+}
+],
+timePosition: "2160",
+timePositionClass: "midroll",
+adUnit: "midroll"
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&cn=slotImpression&et=i&tpos=2880&init=1&slid=12,13,14",
+name: "slotImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&cn=slotEnd&et=i&tpos=2880&init=1&slid=12,13,14",
+name: "slotEnd",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+customId: "mid2880000",
+selectedAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27822024&reid=11665282&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27822024&reid=11665282&arid=0&auid=&cn=defaultImpression&et=i&_cc=27822024,11665282,,39373.,1538657579,1&tpos=2880&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=https%3A//bs.serving-sys.com/serving/adServer.bs%3Fcn%3Ddisplay%26c%3D19%26mc%3Dimp%26pli%3D26281299%26PluID%3D0%26ord%3D1387727845%26rtu%3D-1",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27822024&reid=11665282&arid=0&auid=&cn=complete&et=i&_cc=&tpos=2880&iw=&uxnw=&uxss=&uxct=&cr=https%3A//bs.serving-sys.com/serving/adServer.bs%3Fcn%3Ddisplay%26c%3D19%26mc%3Dimp%26pli%3D26281300%26PluID%3D0%26ord%3D1387727845%26rtu%3D-1",
+name: "complete",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27822024&reid=11665282&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=2880&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [
+{
+name: "defaultClick",
+value: ""
+}
+]
+}
+],
+adId: "27822024",
+creativeId: "3951354",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11665282",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927212&reid=11767837&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927212&reid=11767837&arid=0&auid=&cn=defaultImpression&et=i&_cc=27927212,11767837,39373.,39373.,1538657579,1&tpos=2880&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927212&reid=11767837&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=2880&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27927212",
+creativeId: "3973137",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11767837",
+companionAds: [ ],
+fallbackAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841122&reid=11707391&arid=3&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841122&reid=11707391&arid=3&auid=&cn=defaultImpression&et=i&_cc=27841122,11707391,39373.,39373.,1538657579,1&tpos=2880&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841122&reid=11707391&arid=3&auid=&cn=defaultClick&et=c&_cc=&tpos=2880&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27841122",
+creativeId: "3960193",
+replicaId: "3",
+networkId: "514966",
+creativeRenditionId: "11707391",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843468&reid=11707966&arid=3&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843468&reid=11707966&arid=3&auid=&cn=defaultImpression&et=i&_cc=27843468,11707966,39373.,39373.,1538657579,1&tpos=2880&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843468&reid=11707966&arid=3&auid=&cn=defaultClick&et=c&_cc=&tpos=2880&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27843468",
+creativeId: "3960339",
+replicaId: "3",
+networkId: "514966",
+creativeRenditionId: "11707966",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528109&reid=11545180&arid=3&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528109&reid=11545180&arid=3&auid=&cn=defaultImpression&et=i&_cc=27528109,11545180,39373.,39373.,1538657579,1&tpos=2880&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528109&reid=11545180&arid=3&auid=&cn=defaultClick&et=c&_cc=&tpos=2880&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27528109",
+creativeId: "3928835",
+replicaId: "3",
+networkId: "514966",
+creativeRenditionId: "11545180",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915417&reid=11762103&arid=3&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915417&reid=11762103&arid=3&auid=&cn=defaultImpression&et=i&_cc=27915417,11762103,39373.,39373.,1538657579,1&tpos=2880&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915417&reid=11762103&arid=3&auid=&cn=defaultClick&et=c&_cc=&tpos=2880&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27915417",
+creativeId: "3971991",
+replicaId: "3",
+networkId: "514966",
+creativeRenditionId: "11762103",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926660&reid=11767572&arid=3&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926660&reid=11767572&arid=3&auid=&cn=defaultImpression&et=i&_cc=27926660,11767572,39373.,39373.,1538657579,1&tpos=2880&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926660&reid=11767572&arid=3&auid=&cn=defaultClick&et=c&_cc=&tpos=2880&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27926660",
+creativeId: "3973094",
+replicaId: "3",
+networkId: "514966",
+creativeRenditionId: "11767572",
+companionAds: [ ],
+fallbackAds: [ ]
+}
+]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926955&reid=11767708&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926955&reid=11767708&arid=0&auid=&cn=defaultImpression&et=i&_cc=27926955,11767708,39373.,39373.,1538657579,1&tpos=2880&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926955&reid=11767708&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=2880&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27926955",
+creativeId: "3973114",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11767708",
+companionAds: [ ],
+fallbackAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915435&reid=11762112&arid=3&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915435&reid=11762112&arid=3&auid=&cn=defaultImpression&et=i&_cc=27915435,11762112,39373.,39373.,1538657579,1&tpos=2880&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915435&reid=11762112&arid=3&auid=&cn=defaultClick&et=c&_cc=&tpos=2880&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27915435",
+creativeId: "3972000",
+replicaId: "3",
+networkId: "514966",
+creativeRenditionId: "11762112",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915394&reid=11762065&arid=3&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915394&reid=11762065&arid=3&auid=&cn=defaultImpression&et=i&_cc=27915394,11762065,39373.,39373.,1538657579,1&tpos=2880&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915394&reid=11762065&arid=3&auid=&cn=defaultClick&et=c&_cc=&tpos=2880&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27915394",
+creativeId: "3971975",
+replicaId: "3",
+networkId: "514966",
+creativeRenditionId: "11762065",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927264&reid=11767844&arid=3&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927264&reid=11767844&arid=3&auid=&cn=defaultImpression&et=i&_cc=27927264,11767844,39373.,39373.,1538657579,1&tpos=2880&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927264&reid=11767844&arid=3&auid=&cn=defaultClick&et=c&_cc=&tpos=2880&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27927264",
+creativeId: "3973141",
+replicaId: "3",
+networkId: "514966",
+creativeRenditionId: "11767844",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927266&reid=11767845&arid=3&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927266&reid=11767845&arid=3&auid=&cn=defaultImpression&et=i&_cc=27927266,11767845,39373.,39373.,1538657579,1&tpos=2880&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27927266&reid=11767845&arid=3&auid=&cn=defaultClick&et=c&_cc=&tpos=2880&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27927266",
+creativeId: "3973142",
+replicaId: "3",
+networkId: "514966",
+creativeRenditionId: "11767845",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27765795&reid=11827567&arid=3&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27765795&reid=11827567&arid=3&auid=&cn=defaultImpression&et=i&_cc=27765795,11827567,,39373.,1538657579,1&tpos=2880&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27765795&reid=11827567&arid=3&auid=&cn=defaultClick&et=c&_cc=&tpos=2880&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27765795",
+creativeId: "3954459",
+replicaId: "3",
+networkId: "514966",
+creativeRenditionId: "11827567",
+companionAds: [ ],
+fallbackAds: [ ]
+}
+]
+}
+],
+timePosition: "2880",
+timePositionClass: "midroll",
+adUnit: "midroll"
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&cn=slotImpression&et=i&tpos=3600&init=1&slid=15,16,17",
+name: "slotImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&cn=slotEnd&et=i&tpos=3600&init=1&slid=15,16,17",
+name: "slotEnd",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+customId: "mid3600000",
+selectedAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27717531&reid=11661635&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27717531&reid=11661635&arid=0&auid=&cn=defaultImpression&et=i&_cc=27717531,11661635,,39373.,1538657579,1&tpos=3600&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27717531&reid=11661635&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=3600&cr=https%3A//www.seguros.adeslas.es",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: true,
+trackingUrls: [ ]
+}
+],
+adId: "27717531",
+creativeId: "3950503",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11661635",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27884397&reid=11740725&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27884397&reid=11740725&arid=0&auid=&cn=defaultImpression&et=i&_cc=27884397,11740725,,39373.,1538657579,1&tpos=3600&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27884397&reid=11740725&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=3600&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27884397",
+creativeId: "3967530",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11740725",
+companionAds: [ ],
+fallbackAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841122&reid=11707391&arid=4&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841122&reid=11707391&arid=4&auid=&cn=defaultImpression&et=i&_cc=27841122,11707391,39373.,39373.,1538657579,1&tpos=3600&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841122&reid=11707391&arid=4&auid=&cn=defaultClick&et=c&_cc=&tpos=3600&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27841122",
+creativeId: "3960193",
+replicaId: "4",
+networkId: "514966",
+creativeRenditionId: "11707391",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843468&reid=11707966&arid=4&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843468&reid=11707966&arid=4&auid=&cn=defaultImpression&et=i&_cc=27843468,11707966,39373.,39373.,1538657579,1&tpos=3600&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843468&reid=11707966&arid=4&auid=&cn=defaultClick&et=c&_cc=&tpos=3600&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27843468",
+creativeId: "3960339",
+replicaId: "4",
+networkId: "514966",
+creativeRenditionId: "11707966",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528109&reid=11545180&arid=4&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528109&reid=11545180&arid=4&auid=&cn=defaultImpression&et=i&_cc=27528109,11545180,39373.,39373.,1538657579,1&tpos=3600&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528109&reid=11545180&arid=4&auid=&cn=defaultClick&et=c&_cc=&tpos=3600&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27528109",
+creativeId: "3928835",
+replicaId: "4",
+networkId: "514966",
+creativeRenditionId: "11545180",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915417&reid=11762103&arid=4&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915417&reid=11762103&arid=4&auid=&cn=defaultImpression&et=i&_cc=27915417,11762103,39373.,39373.,1538657579,1&tpos=3600&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27915417&reid=11762103&arid=4&auid=&cn=defaultClick&et=c&_cc=&tpos=3600&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27915417",
+creativeId: "3971991",
+replicaId: "4",
+networkId: "514966",
+creativeRenditionId: "11762103",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926660&reid=11767572&arid=4&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926660&reid=11767572&arid=4&auid=&cn=defaultImpression&et=i&_cc=27926660,11767572,39373.,39373.,1538657579,1&tpos=3600&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27926660&reid=11767572&arid=4&auid=&cn=defaultClick&et=c&_cc=&tpos=3600&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27926660",
+creativeId: "3973094",
+replicaId: "4",
+networkId: "514966",
+creativeRenditionId: "11767572",
+companionAds: [ ],
+fallbackAds: [ ]
+}
+]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27716532&reid=11661125&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27716532&reid=11661125&arid=0&auid=&cn=defaultImpression&et=i&_cc=27716532,11661125,,39373.,1538657579,1&tpos=3600&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=https%3A//bs.serving-sys.com/serving/adServer.bs%3Fcn%3Ddisplay%26c%3D19%26mc%3Dimp%26pli%3D26167504%26PluID%3D0%26ord%3D2052773790%26rtu%3D-1",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27716532&reid=11661125&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=3600&cr=https%3A//bs.serving-sys.com/serving/adServer.bs%3Fcn%3Dtrd%26mc%3Dclick%26pli%3D26167504%26PluID%3D0%26ord%3D2052773790",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: true,
+trackingUrls: [ ]
+}
+],
+adId: "27716532",
+creativeId: "3950413",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11661125",
+companionAds: [ ],
+fallbackAds: [ ]
+}
+],
+timePosition: "3600",
+timePositionClass: "midroll",
+adUnit: "midroll"
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&cn=slotImpression&et=i&tpos=0&init=1&slid=0,1,2",
+name: "slotImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&cn=slotEnd&et=i&tpos=0&init=1&slid=0,1,2",
+name: "slotEnd",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+customId: "0.0.0.1251852346",
+compatibleDimensions: "1680,1050",
+selectedAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843469&reid=11707967&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843469&reid=11707967&arid=0&auid=&cn=defaultImpression&et=i&_cc=27843469,11707967,39373.,39373.,1538657579,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27843469&reid=11707967&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27843469",
+creativeId: "3960340",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11707967",
+companionAds: [ ],
+fallbackAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27884396&reid=11740725&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27884396&reid=11740725&arid=0&auid=&cn=defaultImpression&et=i&_cc=27884396,11740725,,39373.,1538657579,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27884396&reid=11740725&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27884396",
+creativeId: "3967530",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11740725",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27717530&reid=11661625&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27717530&reid=11661625&arid=0&auid=&cn=defaultImpression&et=i&_cc=27717530,11661625,,39373.,1538657579,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27717530&reid=11661625&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=https%3A//www.seguros.adeslas.es",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: true,
+trackingUrls: [ ]
+}
+],
+adId: "27717530",
+creativeId: "3950501",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11661625",
+companionAds: [ ],
+fallbackAds: [ ]
+}
+]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841123&reid=11707392&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841123&reid=11707392&arid=0&auid=&cn=defaultImpression&et=i&_cc=27841123,11707392,39373.,39373.,1538657579,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27841123&reid=11707392&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27841123",
+creativeId: "3960194",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11707392",
+companionAds: [ ],
+fallbackAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27765794&reid=11827561&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27765794&reid=11827561&arid=0&auid=&cn=defaultImpression&et=i&_cc=27765794,11827561,,39373.,1538657579,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27765794&reid=11827561&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27765794",
+creativeId: "3954458",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11827561",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27716531&reid=11661123&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27716531&reid=11661123&arid=0&auid=&cn=defaultImpression&et=i&_cc=27716531,11661123,,39373.,1538657579,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=https%3A//bs.serving-sys.com/serving/adServer.bs%3Fcn%3Ddisplay%26c%3D19%26mc%3Dimp%26pli%3D26167504%26PluID%3D0%26ord%3D1225900907%26rtu%3D-1",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27716531&reid=11661123&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=https%3A//bs.serving-sys.com/serving/adServer.bs%3Fcn%3Dtrd%26mc%3Dclick%26pli%3D26167504%26PluID%3D0%26ord%3D1225900907",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: true,
+trackingUrls: [ ]
+}
+],
+adId: "27716531",
+creativeId: "3950412",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11661123",
+companionAds: [ ],
+fallbackAds: [ ]
+}
+]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528108&reid=11545184&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528108&reid=11545184&arid=0&auid=&cn=defaultImpression&et=i&_cc=27528108,11545184,39373.,39373.,1538657579,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27528108&reid=11545184&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27528108",
+creativeId: "3928837",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11545184",
+companionAds: [ ],
+fallbackAds: [
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27768088&reid=11827539&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27768088&reid=11827539&arid=0&auid=&cn=defaultImpression&et=i&_cc=27768088,11827539,,39373.,1538657579,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27768088&reid=11827539&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27768088",
+creativeId: "3955057",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11827539",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766561&reid=11827518&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766561&reid=11827518&arid=0&auid=&cn=defaultImpression&et=i&_cc=27766561,11827518,,39373.,1538657579,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766561&reid=11827518&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27766561",
+creativeId: "3954599",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11827518",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766790&reid=11827537&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766790&reid=11827537&arid=0&auid=&cn=defaultImpression&et=i&_cc=27766790,11827537,,39373.,1538657579,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766790&reid=11827537&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27766790",
+creativeId: "3954633",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11827537",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766317&reid=11827514&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766317&reid=11827514&arid=0&auid=&cn=defaultImpression&et=i&_cc=27766317,11827514,,39373.,1538657579,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27766317&reid=11827514&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27766317",
+creativeId: "3954575",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11827514",
+companionAds: [ ],
+fallbackAds: [ ]
+},
+{
+eventCallbacks: [
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27767620&reid=11682459&arid=0&iw=&uxnw=&uxss=&uxct=",
+type: "GENERIC",
+use: "BASE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27767620&reid=11682459&arid=0&auid=&cn=defaultImpression&et=i&_cc=27767620,11682459,,39373.,1538657579,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&asid=177251363&ssid=8736909&cr=",
+name: "defaultImpression",
+type: "IMPRESSION",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+},
+{
+url: "https://7db96.v.fwmrm.net/ad/l/1?s=d070&n=514966%3B514966&t=1538657579073662003&f=&r=514966&adid=27767620&reid=11682459&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+name: "defaultClick",
+type: "CLICK",
+use: "OVERRIDE",
+showBrowser: false,
+trackingUrls: [ ]
+}
+],
+adId: "27767620",
+creativeId: "3954708",
+replicaId: "0",
+networkId: "514966",
+creativeRenditionId: "11682459",
+companionAds: [ ],
+fallbackAds: [ ]
+}
+]
+}
+],
+timePosition: "0",
+timePositionClass: "preroll",
+adUnit: "Standard Pre",
+source: "generated",
+maxDuration: "90"
+}
+]
+},
+adSlots: [ ]
+},
+adSlots: [ ]
+}
+}
+)

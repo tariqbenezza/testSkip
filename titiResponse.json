@@ -1,0 +1,1260 @@
+tv.freewheel.SDK._instanceQueue['Context_1'].requestComplete({
+	"version": "1",
+	"networkId": "383480",
+	"parameters": [],
+	"rendererManifest": {
+		"adRenderers": {
+			"version": "1",
+			"adRenderer": [{
+				"name": "g_html5_html_wo_mraid_before_5.13",
+				"url": "class:\/\/HTMLRenderer",
+				"contentType": "text\/html_doc_ref,text\/html_doc_lit_mobile,",
+				"adUnit": "video,still-image,fixed-size-interactive,text-ad,logo-text-ad,linear-animation,generic-overlay,text-ad-click-to-content,still-image-click-to-content,generic-overlay-click-to-content,logo-text-ad-click-to-content,slate,logo,logo-click-to-content,player-skin,generic-overlay-click-to-content2,variable-size-interactive,app-interstitial,",
+				"slotType": "preroll,midroll,postroll,overlay,display,",
+				"creativeApi": "None,"
+			}, {
+				"name": "g_html5_video_mp4",
+				"url": "class:\/\/VideoRenderer",
+				"contentType": "video\/mp4-h264,video\/mp4,video\/m4v,video\/mp4-mpeg4,video\/mp4-mpeg4_simple,video\/m4v-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video\/mp4-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video\/mov-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video\/m4v-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video\/mp4-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video\/mov-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video\/m4v-mpeg4-640-480-less_eq_2500_kbps-aaclc,video\/mp4-mpeg4-640-480-less_eq_2500_kbps-aaclc,video\/mov-mpeg4-640-480-less_eq_2500_kbps-aaclc,video\/mp4-h264-baseline,",
+				"adUnit": "video,slate,",
+				"slotType": "preroll,midroll,postroll,",
+				"creativeApi": "None,"
+			}, {
+				"name": "g_html5_video_webm_ogg",
+				"url": "class:\/\/VideoRenderer",
+				"contentType": "video\/webm,video\/ogg,",
+				"adUnit": "video,",
+				"slotType": "preroll,midroll,postroll,",
+				"creativeApi": "None,"
+			}, {
+				"name": "g_html5_html_mraid_only",
+				"url": "class:\/\/HTMLRenderer",
+				"contentType": "text\/html_doc_ref,text\/html_doc_lit_mobile,",
+				"adUnit": "video,still-image,fixed-size-interactive,linear-animation,app-interstitial,",
+				"slotType": "preroll,midroll,postroll,overlay,display,",
+				"creativeApi": "MRAID-1.0,"
+			}, {
+				"name": "g_html5_vast_desktop",
+				"url": "class:\/\/VastTranslator",
+				"contentType": "external\/vast-2,",
+				"adUnit": "video,still-image,fixed-size-interactive,text-ad,linear-animation,generic-overlay,video-click-to-content,slate,logo,logo-click-to-content,app-interstitial,",
+				"slotType": "preroll,midroll,postroll,overlay,display,",
+				"parameter": [{
+					"name": "translator.vast.asyncLoad",
+					"value": "true"
+				}],
+				"creativeApi": "VPAID,MRAID-1.0,None,"
+			}, {
+				"name": "g_html5_video_3gpp",
+				"url": "class:\/\/VideoRenderer",
+				"contentType": "video\/3gpp,",
+				"adUnit": "video,",
+				"slotType": "preroll,midroll,postroll,",
+				"creativeApi": "None,"
+			}, {
+				"name": "g_html5_video_mov",
+				"url": "class:\/\/VideoRenderer",
+				"contentType": "video\/quicktime,video\/quicktime-h264,video\/mov,video\/mov-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video\/mov-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video\/mov-mpeg4-640-480-less_eq_2500_kbps-aaclc,video\/mov-h263,",
+				"adUnit": "video,",
+				"slotType": "preroll,midroll,postroll,",
+				"creativeApi": "None,"
+			}, {
+				"name": "g_html5_html_wo_mraid_since_5.13",
+				"url": "class:\/\/HTMLRenderer",
+				"contentType": "text\/html_doc_ref,text\/html_doc_lit_mobile,text\/html_lit_nowrapper,",
+				"adUnit": "video,still-image,fixed-size-interactive,text-ad,logo-text-ad,linear-animation,generic-overlay,text-ad-click-to-content,still-image-click-to-content,generic-overlay-click-to-content,logo-text-ad-click-to-content,slate,logo,logo-click-to-content,player-skin,generic-overlay-click-to-content2,variable-size-interactive,app-interstitial,",
+				"slotType": "preroll,midroll,postroll,overlay,display,",
+				"creativeApi": "None,"
+			}, {
+				"name": "g_html5_vast_mobile_no_vpaid",
+				"url": "class:\/\/VastTranslator",
+				"contentType": "external\/vast-2,",
+				"adUnit": "video,still-image,fixed-size-interactive,text-ad,linear-animation,generic-overlay,video-click-to-content,slate,logo,logo-click-to-content,app-interstitial,",
+				"slotType": "preroll,midroll,postroll,overlay,display,",
+				"creativeApi": "None,"
+			}, {
+				"name": "g_html5_vast3",
+				"url": "class:\/\/VastTranslator",
+				"contentType": "external\/vast-3,",
+				"adUnit": "video,still-image,fixed-size-interactive,text-ad,linear-animation,generic-overlay,slate,logo,app-interstitial,",
+				"slotType": "preroll,midroll,postroll,overlay,",
+				"parameter": [{
+					"name": "translator.vast.asyncLoad",
+					"value": "true"
+				}],
+				"creativeApi": "VPAID,MRAID-1.0,None,"
+			}]
+		}
+	},
+	"visitor": {
+		"httpHeaders": [],
+		"state": []
+	},
+	"errors": {
+		"errors": []
+	},
+	"eventCallbacks": {
+		"eventCallbacks": [{
+			"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007",
+			"type": "GENERIC",
+			"use": "BASE",
+			"showBrowser": false,
+			"trackingUrls": []
+		}]
+	},
+	"ads": {
+		"ads": [{
+			"adId": "27507564",
+			"noPreload": false,
+			"noLoad": false,
+			"adUnit": "47714",
+			"isWrapper": false,
+			"required": false,
+			"creatives": [{
+				"creativeId": "3925972",
+				"baseUnit": "video",
+				"duration": "15",
+				"creativeRenditions": [{
+					"creativeRenditionId": "11530366",
+					"creativeApi": "None",
+					"preference": "0",
+					"adReplicaId": "0",
+					"parameters": [],
+					"asset": {
+						"id": "11446510",
+						"name": "Default Asset for Rendition",
+						"contentType": "text\/html_doc_lit_mobile",
+						"mimeType": "text\/html",
+						"bytes": "744",
+						"content": "<html>\n<head>\n\t<meta name = \"viewport\" content = \"initial-scale = 1.0,target-densitydpi = device-dpi\" \/>\n\t<title>Advertisement<\/title>\n\t \n\t<script type=\"text\/javascript\">window._fw_page_url = \"http:\/\/localhost:8080\/\";<\/script>\n<\/head>\n<body style=\"margin:0px;background-color:transparent;\"><span data-width=\"0\" data-height=\"0\" style=\"display:inline-block; vertical-align:top; margin:0px 0px 0px 0px;\"><script src=\"https:\/\/search.spotxchange.com\/vast\/2.0\/79391?VPAID=JS&content_page_url=http:\/\/pre-www.atresplayer.com\/flooxer\/programas\/unas\/temporada-1\/chaoko_5b6956ba7ed1a8bbd1275957\/&player_width=1680&player_height=1050&regs[gdpr]=1&user[consent]=&cb=893348068\" type=\"text\/javascript\" language=\"javascript\"><\/script>\n<\/span>\n\n<\/body>\n<\/html>\n",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}],
+				"parameters": [{
+					"name": "Antony_test_assetTitle",
+					"value": "TariqVideoLiveTest%5E"
+				}, {
+					"name": "Antony_test_macro",
+					"value": "test_macro{}"
+				}, {
+					"name": "Customize Meta Data",
+					"value": ""
+				}, {
+					"name": "Customized meta data2",
+					"value": ""
+				}, {
+					"name": "Genre",
+					"value": ""
+				}, {
+					"name": "Meta Data",
+					"value": ""
+				}, {
+					"name": "Test keyvalue",
+					"value": ""
+				}, {
+					"name": "rating space",
+					"value": ""
+				}, {
+					"name": "secondaryAssetID",
+					"value": "7654321"
+				}, {
+					"name": "simontest",
+					"value": "SPOTX URL CREATIVE"
+				}]
+			}]
+		}, {
+			"adId": "27416577",
+			"noPreload": false,
+			"noLoad": false,
+			"adUnit": "47714",
+			"isWrapper": false,
+			"required": false,
+			"creatives": [{
+				"creativeId": "3734981",
+				"baseUnit": "video",
+				"duration": "26.558",
+				"creativeRenditions": [{
+					"creativeRenditionId": "10697875",
+					"creativeApi": "None",
+					"width": "640",
+					"height": "360",
+					"preference": "0",
+					"bitrate": "700",
+					"parameters": [],
+					"asset": {
+						"id": "10616637",
+						"name": "Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_17_485587_537694",
+						"url": "http:\/\/m1.fwmrm.net\/m\/1\/383480\/69\/3734981\/Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_485587_17.mp4",
+						"contentType": "video\/mp4-h264",
+						"mimeType": "video\/mp4",
+						"bytes": "2618307",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}, {
+					"creativeRenditionId": "10697876",
+					"creativeApi": "None",
+					"width": "640",
+					"height": "360",
+					"preference": "0",
+					"bitrate": "1100",
+					"parameters": [],
+					"asset": {
+						"id": "10616638",
+						"name": "Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_19_485587_537694",
+						"url": "http:\/\/m1.fwmrm.net\/m\/1\/383480\/69\/3734981\/Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_485587_19.mp4",
+						"contentType": "video\/mp4-h264",
+						"mimeType": "video\/mp4",
+						"bytes": "3917280",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}, {
+					"creativeRenditionId": "10697877",
+					"creativeApi": "None",
+					"width": "640",
+					"height": "360",
+					"preference": "0",
+					"bitrate": "1400",
+					"parameters": [],
+					"asset": {
+						"id": "10616639",
+						"name": "Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_20_485587_537694",
+						"url": "http:\/\/m1.fwmrm.net\/m\/1\/383480\/69\/3734981\/Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_485587_20.mp4",
+						"contentType": "video\/mp4-h264",
+						"mimeType": "video\/mp4",
+						"bytes": "4905289",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}, {
+					"creativeRenditionId": "10697878",
+					"creativeApi": "None",
+					"width": "768",
+					"height": "432",
+					"preference": "0",
+					"bitrate": "500",
+					"parameters": [],
+					"asset": {
+						"id": "10616640",
+						"name": "Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_23_485587_537694",
+						"url": "http:\/\/m1.fwmrm.net\/m\/1\/383480\/69\/3734981\/Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_485587_23.mp4",
+						"contentType": "video\/mp4-h264",
+						"mimeType": "video\/mp4",
+						"bytes": "1984819",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}, {
+					"creativeRenditionId": "10697884",
+					"creativeApi": "None",
+					"width": "640",
+					"height": "360",
+					"preference": "0",
+					"bitrate": "682",
+					"parameters": [],
+					"asset": {
+						"id": "10616646",
+						"name": "Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_238_485587_537694",
+						"url": "http:\/\/m1.fwmrm.net\/m\/1\/383480\/69\/3734981\/Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_485587_238.mp4",
+						"contentType": "video\/mp4-h264-baseline",
+						"mimeType": "video\/mp4",
+						"bytes": "2608562",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}, {
+					"creativeRenditionId": "10697885",
+					"creativeApi": "None",
+					"width": "640",
+					"height": "360",
+					"preference": "0",
+					"bitrate": "310",
+					"parameters": [],
+					"asset": {
+						"id": "10616647",
+						"name": "Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_326_485587_537694",
+						"url": "http:\/\/m1.fwmrm.net\/m\/1\/383480\/69\/3734981\/Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_485587_326.mp4",
+						"contentType": "video\/mp4-h264",
+						"mimeType": "video\/mp4",
+						"bytes": "1374393",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}, {
+					"creativeRenditionId": "10697886",
+					"creativeApi": "None",
+					"width": "640",
+					"height": "360",
+					"preference": "0",
+					"bitrate": "424",
+					"parameters": [],
+					"asset": {
+						"id": "10616648",
+						"name": "Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_327_485587_537694",
+						"url": "http:\/\/m1.fwmrm.net\/m\/1\/383480\/69\/3734981\/Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_485587_327.mp4",
+						"contentType": "video\/mp4-h264",
+						"mimeType": "video\/mp4",
+						"bytes": "1755442",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}, {
+					"creativeRenditionId": "10697887",
+					"creativeApi": "None",
+					"width": "512",
+					"height": "288",
+					"preference": "0",
+					"bitrate": "400",
+					"parameters": [],
+					"asset": {
+						"id": "10616649",
+						"name": "Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_356_485587_537694",
+						"url": "http:\/\/m1.fwmrm.net\/m\/1\/383480\/69\/3734981\/Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_485587_356.mp4",
+						"contentType": "video\/mp4-h264",
+						"mimeType": "video\/mp4",
+						"bytes": "1629446",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}],
+				"parameters": [{
+					"name": "skippable",
+					"value": "true"
+				}, {
+					"name": "nickname",
+					"value": "toto"
+				}, {
+					"name": "Antony_test_assetTitle",
+					"value": "TariqVideoLiveTest%5E"
+				}, {
+					"name": "Antony_test_macro",
+					"value": "test_macro{}"
+				}, {
+					"name": "Customize Meta Data",
+					"value": ""
+				}, {
+					"name": "Customized meta data2",
+					"value": ""
+				}, {
+					"name": "Genre",
+					"value": ""
+				}, {
+					"name": "Meta Data",
+					"value": ""
+				}, {
+					"name": "Test keyvalue",
+					"value": ""
+				}, {
+					"name": "rating space",
+					"value": ""
+				}, {
+					"name": "secondaryAssetID",
+					"value": "7654321"
+				}, {
+					"name": "simontest",
+					"value": "Coca-Ad"
+				}]
+			}]
+		}, {
+			"adId": "27474457",
+			"noPreload": false,
+			"noLoad": false,
+			"adUnit": "47714",
+			"isWrapper": false,
+			"required": false,
+			"creatives": [{
+				"creativeId": "3920226",
+				"baseUnit": "video",
+				"duration": "30",
+				"creativeRenditions": [{
+					"creativeRenditionId": "11507069",
+					"wrapperType": "external\/vast-3",
+					"wrapperUrl": "https:\/\/pubads.g.doubleclick.net\/gampad\/ads?sz=640x480&iu=\/124319096\/external\/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dlinear&correlator=",
+					"creativeApi": "None",
+					"preference": "0",
+					"parameters": [],
+					"asset": {
+						"id": "11423309",
+						"name": "Default Asset for Rendition",
+						"contentType": "video\/mp4",
+						"mimeType": "video\/mp4",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}],
+				"parameters": [{
+					"name": "Antony_test_assetTitle",
+					"value": "TariqVideoLiveTest%5E"
+				}, {
+					"name": "Antony_test_macro",
+					"value": "test_macro{}"
+				}, {
+					"name": "Customize Meta Data",
+					"value": ""
+				}, {
+					"name": "Customized meta data2",
+					"value": ""
+				}, {
+					"name": "Genre",
+					"value": ""
+				}, {
+					"name": "Meta Data",
+					"value": ""
+				}, {
+					"name": "Test keyvalue",
+					"value": ""
+				}, {
+					"name": "rating space",
+					"value": ""
+				}, {
+					"name": "secondaryAssetID",
+					"value": "7654321"
+				}, {
+					"name": "simontest",
+					"value": "VAST_Creative"
+				}]
+			}]
+		}, {
+			"adId": "27507565",
+			"noPreload": false,
+			"noLoad": false,
+			"adUnit": "47716",
+			"isWrapper": false,
+			"required": false,
+			"creatives": [{
+				"creativeId": "3925972",
+				"baseUnit": "video",
+				"duration": "15",
+				"creativeRenditions": [{
+					"creativeRenditionId": "11530366",
+					"creativeApi": "None",
+					"preference": "0",
+					"adReplicaId": "0",
+					"parameters": [],
+					"asset": {
+						"id": "11446510",
+						"name": "Default Asset for Rendition",
+						"contentType": "text\/html_doc_lit_mobile",
+						"mimeType": "text\/html",
+						"bytes": "744",
+						"content": "<html>\n<head>\n\t<meta name = \"viewport\" content = \"initial-scale = 1.0,target-densitydpi = device-dpi\" \/>\n\t<title>Advertisement<\/title>\n\t \n\t<script type=\"text\/javascript\">window._fw_page_url = \"http:\/\/localhost:8080\/\";<\/script>\n<\/head>\n<body style=\"margin:0px;background-color:transparent;\"><span data-width=\"0\" data-height=\"0\" style=\"display:inline-block; vertical-align:top; margin:0px 0px 0px 0px;\"><script src=\"https:\/\/search.spotxchange.com\/vast\/2.0\/79391?VPAID=JS&content_page_url=http:\/\/pre-www.atresplayer.com\/flooxer\/programas\/unas\/temporada-1\/chaoko_5b6956ba7ed1a8bbd1275957\/&player_width=1680&player_height=1050&regs[gdpr]=1&user[consent]=&cb=893348068\" type=\"text\/javascript\" language=\"javascript\"><\/script>\n<\/span>\n\n<\/body>\n<\/html>\n",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}, {
+					"creativeRenditionId": "11530366",
+					"creativeApi": "None",
+					"preference": "0",
+					"adReplicaId": "1",
+					"parameters": [],
+					"asset": {
+						"id": "11446510",
+						"name": "Default Asset for Rendition",
+						"contentType": "text\/html_doc_lit_mobile",
+						"mimeType": "text\/html",
+						"bytes": "744",
+						"content": "<html>\n<head>\n\t<meta name = \"viewport\" content = \"initial-scale = 1.0,target-densitydpi = device-dpi\" \/>\n\t<title>Advertisement<\/title>\n\t \n\t<script type=\"text\/javascript\">window._fw_page_url = \"http:\/\/localhost:8080\/\";<\/script>\n<\/head>\n<body style=\"margin:0px;background-color:transparent;\"><span data-width=\"0\" data-height=\"0\" style=\"display:inline-block; vertical-align:top; margin:0px 0px 0px 0px;\"><script src=\"https:\/\/search.spotxchange.com\/vast\/2.0\/79391?VPAID=JS&content_page_url=http:\/\/pre-www.atresplayer.com\/flooxer\/programas\/unas\/temporada-1\/chaoko_5b6956ba7ed1a8bbd1275957\/&player_width=1680&player_height=1050&regs[gdpr]=1&user[consent]=&cb=893348068\" type=\"text\/javascript\" language=\"javascript\"><\/script>\n<\/span>\n\n<\/body>\n<\/html>\n",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}, {
+					"creativeRenditionId": "11530366",
+					"creativeApi": "None",
+					"preference": "0",
+					"adReplicaId": "2",
+					"parameters": [],
+					"asset": {
+						"id": "11446510",
+						"name": "Default Asset for Rendition",
+						"contentType": "text\/html_doc_lit_mobile",
+						"mimeType": "text\/html",
+						"bytes": "744",
+						"content": "<html>\n<head>\n\t<meta name = \"viewport\" content = \"initial-scale = 1.0,target-densitydpi = device-dpi\" \/>\n\t<title>Advertisement<\/title>\n\t \n\t<script type=\"text\/javascript\">window._fw_page_url = \"http:\/\/localhost:8080\/\";<\/script>\n<\/head>\n<body style=\"margin:0px;background-color:transparent;\"><span data-width=\"0\" data-height=\"0\" style=\"display:inline-block; vertical-align:top; margin:0px 0px 0px 0px;\"><script src=\"https:\/\/search.spotxchange.com\/vast\/2.0\/79391?VPAID=JS&content_page_url=http:\/\/pre-www.atresplayer.com\/flooxer\/programas\/unas\/temporada-1\/chaoko_5b6956ba7ed1a8bbd1275957\/&player_width=1680&player_height=1050&regs[gdpr]=1&user[consent]=&cb=893348068\" type=\"text\/javascript\" language=\"javascript\"><\/script>\n<\/span>\n\n<\/body>\n<\/html>\n",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}],
+				"parameters": [{
+					"name": "Antony_test_assetTitle",
+					"value": "TariqVideoLiveTest%5E"
+				}, {
+					"name": "Antony_test_macro",
+					"value": "test_macro{}"
+				}, {
+					"name": "Customize Meta Data",
+					"value": ""
+				}, {
+					"name": "Customized meta data2",
+					"value": ""
+				}, {
+					"name": "Genre",
+					"value": ""
+				}, {
+					"name": "Meta Data",
+					"value": ""
+				}, {
+					"name": "Test keyvalue",
+					"value": ""
+				}, {
+					"name": "rating space",
+					"value": ""
+				}, {
+					"name": "secondaryAssetID",
+					"value": "7654321"
+				}, {
+					"name": "simontest",
+					"value": "SPOTX URL CREATIVE"
+				}]
+			}]
+		}, {
+			"adId": "27416578",
+			"noPreload": false,
+			"noLoad": false,
+			"adUnit": "47716",
+			"isWrapper": false,
+			"required": false,
+			"creatives": [{
+				"creativeId": "3734981",
+				"baseUnit": "video",
+				"duration": "26.558",
+				"creativeRenditions": [{
+					"creativeRenditionId": "10697875",
+					"creativeApi": "None",
+					"width": "640",
+					"height": "360",
+					"preference": "0",
+					"bitrate": "700",
+					"parameters": [],
+					"asset": {
+						"id": "10616637",
+						"name": "Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_17_485587_537694",
+						"url": "http:\/\/m1.fwmrm.net\/m\/1\/383480\/69\/3734981\/Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_485587_17.mp4",
+						"contentType": "video\/mp4-h264",
+						"mimeType": "video\/mp4",
+						"bytes": "2618307",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}, {
+					"creativeRenditionId": "10697876",
+					"creativeApi": "None",
+					"width": "640",
+					"height": "360",
+					"preference": "0",
+					"bitrate": "1100",
+					"parameters": [],
+					"asset": {
+						"id": "10616638",
+						"name": "Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_19_485587_537694",
+						"url": "http:\/\/m1.fwmrm.net\/m\/1\/383480\/69\/3734981\/Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_485587_19.mp4",
+						"contentType": "video\/mp4-h264",
+						"mimeType": "video\/mp4",
+						"bytes": "3917280",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}, {
+					"creativeRenditionId": "10697877",
+					"creativeApi": "None",
+					"width": "640",
+					"height": "360",
+					"preference": "0",
+					"bitrate": "1400",
+					"parameters": [],
+					"asset": {
+						"id": "10616639",
+						"name": "Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_20_485587_537694",
+						"url": "http:\/\/m1.fwmrm.net\/m\/1\/383480\/69\/3734981\/Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_485587_20.mp4",
+						"contentType": "video\/mp4-h264",
+						"mimeType": "video\/mp4",
+						"bytes": "4905289",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}, {
+					"creativeRenditionId": "10697878",
+					"creativeApi": "None",
+					"width": "768",
+					"height": "432",
+					"preference": "0",
+					"bitrate": "500",
+					"parameters": [],
+					"asset": {
+						"id": "10616640",
+						"name": "Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_23_485587_537694",
+						"url": "http:\/\/m1.fwmrm.net\/m\/1\/383480\/69\/3734981\/Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_485587_23.mp4",
+						"contentType": "video\/mp4-h264",
+						"mimeType": "video\/mp4",
+						"bytes": "1984819",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}, {
+					"creativeRenditionId": "10697884",
+					"creativeApi": "None",
+					"width": "640",
+					"height": "360",
+					"preference": "0",
+					"bitrate": "682",
+					"parameters": [],
+					"asset": {
+						"id": "10616646",
+						"name": "Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_238_485587_537694",
+						"url": "http:\/\/m1.fwmrm.net\/m\/1\/383480\/69\/3734981\/Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_485587_238.mp4",
+						"contentType": "video\/mp4-h264-baseline",
+						"mimeType": "video\/mp4",
+						"bytes": "2608562",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}, {
+					"creativeRenditionId": "10697885",
+					"creativeApi": "None",
+					"width": "640",
+					"height": "360",
+					"preference": "0",
+					"bitrate": "310",
+					"parameters": [],
+					"asset": {
+						"id": "10616647",
+						"name": "Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_326_485587_537694",
+						"url": "http:\/\/m1.fwmrm.net\/m\/1\/383480\/69\/3734981\/Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_485587_326.mp4",
+						"contentType": "video\/mp4-h264",
+						"mimeType": "video\/mp4",
+						"bytes": "1374393",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}, {
+					"creativeRenditionId": "10697886",
+					"creativeApi": "None",
+					"width": "640",
+					"height": "360",
+					"preference": "0",
+					"bitrate": "424",
+					"parameters": [],
+					"asset": {
+						"id": "10616648",
+						"name": "Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_327_485587_537694",
+						"url": "http:\/\/m1.fwmrm.net\/m\/1\/383480\/69\/3734981\/Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_485587_327.mp4",
+						"contentType": "video\/mp4-h264",
+						"mimeType": "video\/mp4",
+						"bytes": "1755442",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}, {
+					"creativeRenditionId": "10697887",
+					"creativeApi": "None",
+					"width": "512",
+					"height": "288",
+					"preference": "0",
+					"bitrate": "400",
+					"parameters": [],
+					"asset": {
+						"id": "10616649",
+						"name": "Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_356_485587_537694",
+						"url": "http:\/\/m1.fwmrm.net\/m\/1\/383480\/69\/3734981\/Coca_Cola_commercial_30_Seconds._Mohamed_Abdi__William_1530614796_485587_356.mp4",
+						"contentType": "video\/mp4-h264",
+						"mimeType": "video\/mp4",
+						"bytes": "1629446",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}],
+				"parameters": [{
+					"name": "skippable",
+					"value": "true"
+				}, {
+					"name": "nickname",
+					"value": "toto"
+				}, {
+					"name": "Antony_test_assetTitle",
+					"value": "TariqVideoLiveTest%5E"
+				}, {
+					"name": "Antony_test_macro",
+					"value": "test_macro{}"
+				}, {
+					"name": "Customize Meta Data",
+					"value": ""
+				}, {
+					"name": "Customized meta data2",
+					"value": ""
+				}, {
+					"name": "Genre",
+					"value": ""
+				}, {
+					"name": "Meta Data",
+					"value": ""
+				}, {
+					"name": "Test keyvalue",
+					"value": ""
+				}, {
+					"name": "rating space",
+					"value": ""
+				}, {
+					"name": "secondaryAssetID",
+					"value": "7654321"
+				}, {
+					"name": "simontest",
+					"value": "Coca-Ad"
+				}]
+			}]
+		}, {
+			"adId": "27474458",
+			"noPreload": false,
+			"noLoad": false,
+			"adUnit": "47716",
+			"isWrapper": false,
+			"required": false,
+			"creatives": [{
+				"creativeId": "3920226",
+				"baseUnit": "video",
+				"duration": "30",
+				"creativeRenditions": [{
+					"creativeRenditionId": "11507069",
+					"wrapperType": "external\/vast-3",
+					"wrapperUrl": "https:\/\/pubads.g.doubleclick.net\/gampad\/ads?sz=640x480&iu=\/124319096\/external\/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dlinear&correlator=",
+					"creativeApi": "None",
+					"preference": "0",
+					"parameters": [],
+					"asset": {
+						"id": "11423309",
+						"name": "Default Asset for Rendition",
+						"contentType": "video\/mp4",
+						"mimeType": "video\/mp4",
+						"deliveryMethod": "progressive"
+					},
+					"otherAssets": []
+				}],
+				"parameters": [{
+					"name": "Antony_test_assetTitle",
+					"value": "TariqVideoLiveTest%5E"
+				}, {
+					"name": "Antony_test_macro",
+					"value": "test_macro{}"
+				}, {
+					"name": "Customize Meta Data",
+					"value": ""
+				}, {
+					"name": "Customized meta data2",
+					"value": ""
+				}, {
+					"name": "Genre",
+					"value": ""
+				}, {
+					"name": "Meta Data",
+					"value": ""
+				}, {
+					"name": "Test keyvalue",
+					"value": ""
+				}, {
+					"name": "rating space",
+					"value": ""
+				}, {
+					"name": "secondaryAssetID",
+					"value": "7654321"
+				}, {
+					"name": "simontest",
+					"value": "VAST_Creative"
+				}]
+			}]
+		}]
+	},
+	"siteSection": {
+		"customId": "TariqSiteSectionLiveTest",
+		"videoPlayer": {
+			"videoAsset": {
+				"eventCallbacks": [{
+					"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&cn=videoView&et=i&uxnw=&uxss=&uxct=",
+					"name": "videoView",
+					"type": "IMPRESSION",
+					"use": "OVERRIDE",
+					"showBrowser": false,
+					"trackingUrls": []
+				}],
+				"customId": "7654321",
+				"adSlots": [{
+					"eventCallbacks": [{
+						"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&cn=slotImpression&et=i&tpos=0&init=1&slid=0",
+						"name": "slotImpression",
+						"type": "IMPRESSION",
+						"use": "OVERRIDE",
+						"showBrowser": false,
+						"trackingUrls": []
+					}, {
+						"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&cn=slotEnd&et=i&tpos=0&init=1&slid=0",
+						"name": "slotEnd",
+						"type": "IMPRESSION",
+						"use": "OVERRIDE",
+						"showBrowser": false,
+						"trackingUrls": []
+					}],
+					"customId": "Pre_Roll Standard",
+					"selectedAds": [{
+						"eventCallbacks": [{
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27507564&reid=11530366&arid=0&iw=&uxnw=&uxss=&uxct=",
+							"type": "GENERIC",
+							"use": "BASE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27507564&reid=11530366&arid=0&auid=&cn=defaultImpression&et=i&_cc=27507564,11530366,,,1537817538,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&pingids=422&cr=",
+							"name": "defaultImpression",
+							"type": "IMPRESSION",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": [{
+								"name": "Test Canal",
+								"value": "https:\/\/secure-gl.imrworldwide.com\/cgi-bin\/m?ca=nlsn108882&cr=creative&ce=canalplus4&pc=TariqVideoLiveTest^&ci=nlsnci1264&am=4&at=view&rt=banner&st=image&r=45164740"
+							}]
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27507564&reid=11530366&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+							"name": "defaultClick",
+							"type": "CLICK",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}],
+						"adId": "27507564",
+						"creativeId": "3925972",
+						"replicaId": "0",
+						"networkId": "383480",
+						"creativeRenditionId": "11530366",
+						"companionAds": [],
+						"fallbackAds": []
+					}, {
+						"eventCallbacks": [{
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27416577&reid=10697875&arid=0&iw=&uxnw=&uxss=&uxct=",
+							"type": "GENERIC",
+							"use": "BASE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27416577&reid=10697875&arid=0&auid=&cn=defaultImpression&et=i&_cc=27416577,10697875,,,1537817538,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&pingids=422&cr=https%3A\/\/bs.serving-sys.com\/serving\/adServer.bs%3Fcn%3Ddisplay%26c%3D19%26mc%3Dimp%26pli%3D25860449%26PluID%3D0%26ord%3D429707105%26rtu%3D-1",
+							"name": "defaultImpression",
+							"type": "IMPRESSION",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": [{
+								"name": "Test Canal",
+								"value": "https:\/\/secure-gl.imrworldwide.com\/cgi-bin\/m?ca=nlsn108882&cr=creative&ce=canalplus4&pc=TariqVideoLiveTest^&ci=nlsnci1264&am=4&at=view&rt=banner&st=image&r=1633556735"
+							}]
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27416577&reid=10697875&arid=0&auid=&cn=complete&et=i&_cc=&tpos=0&iw=&uxnw=&uxss=&uxct=&cr=https%3A\/\/bs.serving-sys.com\/serving\/adServer.bs%3Fcn%3Ddisplay%26c%3D19%26mc%3Dimp%26pli%3D25860464%26PluID%3D0%26ord%3D429707105%26rtu%3D-1",
+							"name": "complete",
+							"type": "IMPRESSION",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27416577&reid=10697875&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=https%3A\/\/bs.serving-sys.com\/serving\/adServer.bs%3Fcn%3Dtrd%26mc%3Dclick%26pli%3D25860449%26PluID%3D0%26ord%3D429707105",
+							"name": "defaultClick",
+							"type": "CLICK",
+							"use": "OVERRIDE",
+							"showBrowser": true,
+							"trackingUrls": []
+						}],
+						"adId": "27416577",
+						"creativeId": "3734981",
+						"replicaId": "0",
+						"networkId": "383480",
+						"creativeRenditionId": "10697875",
+						"companionAds": [],
+						"fallbackAds": []
+					}, {
+						"eventCallbacks": [{
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27474457&reid=11507069&arid=0&iw=&uxnw=&uxss=&uxct=",
+							"type": "GENERIC",
+							"use": "BASE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27474457&reid=11507069&arid=0&auid=&cn=defaultImpression&et=i&_cc=27474457,11507069,,,1537817538,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&pingids=422&cr=",
+							"name": "defaultImpression",
+							"type": "IMPRESSION",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": [{
+								"name": "Test Canal",
+								"value": "https:\/\/secure-gl.imrworldwide.com\/cgi-bin\/m?ca=nlsn108882&cr=creative&ce=canalplus4&pc=TariqVideoLiveTest^&ci=nlsnci1264&am=4&at=view&rt=banner&st=image&r=1765784404"
+							}]
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27474457&reid=11507069&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+							"name": "defaultClick",
+							"type": "CLICK",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}],
+						"adId": "27474457",
+						"creativeId": "3920226",
+						"replicaId": "0",
+						"networkId": "383480",
+						"creativeRenditionId": "11507069",
+						"companionAds": [],
+						"fallbackAds": []
+					}],
+					"timePosition": "0",
+					"timePositionClass": "preroll",
+					"adUnit": "preroll"
+				}, {
+					"eventCallbacks": [{
+						"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&cn=slotImpression&et=i&tpos=30&init=1&slid=1",
+						"name": "slotImpression",
+						"type": "IMPRESSION",
+						"use": "OVERRIDE",
+						"showBrowser": false,
+						"trackingUrls": []
+					}, {
+						"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&cn=slotEnd&et=i&tpos=30&init=1&slid=1",
+						"name": "slotEnd",
+						"type": "IMPRESSION",
+						"use": "OVERRIDE",
+						"showBrowser": false,
+						"trackingUrls": []
+					}],
+					"customId": "Mid_Roll Standard",
+					"selectedAds": [{
+						"eventCallbacks": [{
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27507565&reid=11530366&arid=0&iw=&uxnw=&uxss=&uxct=",
+							"type": "GENERIC",
+							"use": "BASE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27507565&reid=11530366&arid=0&auid=&cn=defaultImpression&et=i&_cc=27507565,11530366,,,1537817538,1&tpos=30&iw=&uxnw=&uxss=&uxct=&init=1&pingids=422&cr=",
+							"name": "defaultImpression",
+							"type": "IMPRESSION",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": [{
+								"name": "Test Canal",
+								"value": "https:\/\/secure-gl.imrworldwide.com\/cgi-bin\/m?ca=nlsn108882&cr=creative&ce=canalplus4&pc=TariqVideoLiveTest^&ci=nlsnci1264&am=4&at=view&rt=banner&st=image&r=1927640303"
+							}]
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27507565&reid=11530366&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=30&cr=",
+							"name": "defaultClick",
+							"type": "CLICK",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}],
+						"adId": "27507565",
+						"creativeId": "3925972",
+						"replicaId": "0",
+						"networkId": "383480",
+						"creativeRenditionId": "11530366",
+						"companionAds": [],
+						"fallbackAds": []
+					}, {
+						"eventCallbacks": [{
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27416578&reid=10697875&arid=0&iw=&uxnw=&uxss=&uxct=",
+							"type": "GENERIC",
+							"use": "BASE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27416578&reid=10697875&arid=0&auid=&cn=defaultImpression&et=i&_cc=27416578,10697875,,,1537817538,1&tpos=30&iw=&uxnw=&uxss=&uxct=&init=1&pingids=422&cr=",
+							"name": "defaultImpression",
+							"type": "IMPRESSION",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": [{
+								"name": "Test Canal",
+								"value": "https:\/\/secure-gl.imrworldwide.com\/cgi-bin\/m?ca=nlsn108882&cr=creative&ce=canalplus4&pc=TariqVideoLiveTest^&ci=nlsnci1264&am=4&at=view&rt=banner&st=image&r=637341263"
+							}]
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27416578&reid=10697875&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=30&cr=",
+							"name": "defaultClick",
+							"type": "CLICK",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}],
+						"adId": "27416578",
+						"creativeId": "3734981",
+						"replicaId": "0",
+						"networkId": "383480",
+						"creativeRenditionId": "10697875",
+						"companionAds": [],
+						"fallbackAds": []
+					}, {
+						"eventCallbacks": [{
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27474458&reid=11507069&arid=0&iw=&uxnw=&uxss=&uxct=",
+							"type": "GENERIC",
+							"use": "BASE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27474458&reid=11507069&arid=0&auid=&cn=defaultImpression&et=i&_cc=27474458,11507069,,,1537817538,1&tpos=30&iw=&uxnw=&uxss=&uxct=&init=1&pingids=422&cr=",
+							"name": "defaultImpression",
+							"type": "IMPRESSION",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": [{
+								"name": "Test Canal",
+								"value": "https:\/\/secure-gl.imrworldwide.com\/cgi-bin\/m?ca=nlsn108882&cr=creative&ce=canalplus4&pc=TariqVideoLiveTest^&ci=nlsnci1264&am=4&at=view&rt=banner&st=image&r=1878578808"
+							}]
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27474458&reid=11507069&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=30&cr=",
+							"name": "defaultClick",
+							"type": "CLICK",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}],
+						"adId": "27474458",
+						"creativeId": "3920226",
+						"replicaId": "0",
+						"networkId": "383480",
+						"creativeRenditionId": "11507069",
+						"companionAds": [],
+						"fallbackAds": []
+					}],
+					"timePosition": "30",
+					"timePositionClass": "midroll",
+					"adUnit": "midroll"
+				}, {
+					"eventCallbacks": [{
+						"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&cn=slotImpression&et=i&tpos=40&init=1&slid=2",
+						"name": "slotImpression",
+						"type": "IMPRESSION",
+						"use": "OVERRIDE",
+						"showBrowser": false,
+						"trackingUrls": []
+					}, {
+						"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&cn=slotEnd&et=i&tpos=40&init=1&slid=2",
+						"name": "slotEnd",
+						"type": "IMPRESSION",
+						"use": "OVERRIDE",
+						"showBrowser": false,
+						"trackingUrls": []
+					}],
+					"customId": "Midinette",
+					"selectedAds": [{
+						"eventCallbacks": [{
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27507565&reid=11530366&arid=1&iw=&uxnw=&uxss=&uxct=",
+							"type": "GENERIC",
+							"use": "BASE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27507565&reid=11530366&arid=1&auid=&cn=defaultImpression&et=i&_cc=27507565,11530366,,,1537817538,1&tpos=40&iw=&uxnw=&uxss=&uxct=&init=1&pingids=422&cr=",
+							"name": "defaultImpression",
+							"type": "IMPRESSION",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": [{
+								"name": "Test Canal",
+								"value": "https:\/\/secure-gl.imrworldwide.com\/cgi-bin\/m?ca=nlsn108882&cr=creative&ce=canalplus4&pc=TariqVideoLiveTest^&ci=nlsnci1264&am=4&at=view&rt=banner&st=image&r=461071470"
+							}]
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27507565&reid=11530366&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=40&cr=",
+							"name": "defaultClick",
+							"type": "CLICK",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}],
+						"adId": "27507565",
+						"creativeId": "3925972",
+						"replicaId": "1",
+						"networkId": "383480",
+						"creativeRenditionId": "11530366",
+						"companionAds": [],
+						"fallbackAds": []
+					}, {
+						"eventCallbacks": [{
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27416578&reid=10697875&arid=1&iw=&uxnw=&uxss=&uxct=",
+							"type": "GENERIC",
+							"use": "BASE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27416578&reid=10697875&arid=1&auid=&cn=defaultImpression&et=i&_cc=27416578,10697875,,,1537817538,1&tpos=40&iw=&uxnw=&uxss=&uxct=&init=1&pingids=422&cr=",
+							"name": "defaultImpression",
+							"type": "IMPRESSION",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": [{
+								"name": "Test Canal",
+								"value": "https:\/\/secure-gl.imrworldwide.com\/cgi-bin\/m?ca=nlsn108882&cr=creative&ce=canalplus4&pc=TariqVideoLiveTest^&ci=nlsnci1264&am=4&at=view&rt=banner&st=image&r=132937878"
+							}]
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27416578&reid=10697875&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=40&cr=",
+							"name": "defaultClick",
+							"type": "CLICK",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}],
+						"adId": "27416578",
+						"creativeId": "3734981",
+						"replicaId": "1",
+						"networkId": "383480",
+						"creativeRenditionId": "10697875",
+						"companionAds": [],
+						"fallbackAds": []
+					}, {
+						"eventCallbacks": [{
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27474458&reid=11507069&arid=1&iw=&uxnw=&uxss=&uxct=",
+							"type": "GENERIC",
+							"use": "BASE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27474458&reid=11507069&arid=1&auid=&cn=defaultImpression&et=i&_cc=27474458,11507069,,,1537817538,1&tpos=40&iw=&uxnw=&uxss=&uxct=&init=1&pingids=422&cr=",
+							"name": "defaultImpression",
+							"type": "IMPRESSION",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": [{
+								"name": "Test Canal",
+								"value": "https:\/\/secure-gl.imrworldwide.com\/cgi-bin\/m?ca=nlsn108882&cr=creative&ce=canalplus4&pc=TariqVideoLiveTest^&ci=nlsnci1264&am=4&at=view&rt=banner&st=image&r=930236242"
+							}]
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27474458&reid=11507069&arid=1&auid=&cn=defaultClick&et=c&_cc=&tpos=40&cr=",
+							"name": "defaultClick",
+							"type": "CLICK",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}],
+						"adId": "27474458",
+						"creativeId": "3920226",
+						"replicaId": "1",
+						"networkId": "383480",
+						"creativeRenditionId": "11507069",
+						"companionAds": [],
+						"fallbackAds": []
+					}],
+					"timePosition": "40",
+					"timePositionClass": "midroll",
+					"adUnit": "midroll"
+				}, {
+					"eventCallbacks": [{
+						"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&cn=slotImpression&et=i&tpos=50&init=1&slid=3",
+						"name": "slotImpression",
+						"type": "IMPRESSION",
+						"use": "OVERRIDE",
+						"showBrowser": false,
+						"trackingUrls": []
+					}, {
+						"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&cn=slotEnd&et=i&tpos=50&init=1&slid=3",
+						"name": "slotEnd",
+						"type": "IMPRESSION",
+						"use": "OVERRIDE",
+						"showBrowser": false,
+						"trackingUrls": []
+					}],
+					"customId": "Midino",
+					"selectedAds": [{
+						"eventCallbacks": [{
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27507565&reid=11530366&arid=2&iw=&uxnw=&uxss=&uxct=",
+							"type": "GENERIC",
+							"use": "BASE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27507565&reid=11530366&arid=2&auid=&cn=defaultImpression&et=i&_cc=27507565,11530366,,,1537817538,1&tpos=50&iw=&uxnw=&uxss=&uxct=&init=1&pingids=422&cr=",
+							"name": "defaultImpression",
+							"type": "IMPRESSION",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": [{
+								"name": "Test Canal",
+								"value": "https:\/\/secure-gl.imrworldwide.com\/cgi-bin\/m?ca=nlsn108882&cr=creative&ce=canalplus4&pc=TariqVideoLiveTest^&ci=nlsnci1264&am=4&at=view&rt=banner&st=image&r=1367427152"
+							}]
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27507565&reid=11530366&arid=2&auid=&cn=defaultClick&et=c&_cc=&tpos=50&cr=",
+							"name": "defaultClick",
+							"type": "CLICK",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}],
+						"adId": "27507565",
+						"creativeId": "3925972",
+						"replicaId": "2",
+						"networkId": "383480",
+						"creativeRenditionId": "11530366",
+						"companionAds": [],
+						"fallbackAds": []
+					}, {
+						"eventCallbacks": [{
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27416578&reid=10697875&arid=2&iw=&uxnw=&uxss=&uxct=",
+							"type": "GENERIC",
+							"use": "BASE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27416578&reid=10697875&arid=2&auid=&cn=defaultImpression&et=i&_cc=27416578,10697875,,,1537817538,1&tpos=50&iw=&uxnw=&uxss=&uxct=&init=1&pingids=422&cr=",
+							"name": "defaultImpression",
+							"type": "IMPRESSION",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": [{
+								"name": "Test Canal",
+								"value": "https:\/\/secure-gl.imrworldwide.com\/cgi-bin\/m?ca=nlsn108882&cr=creative&ce=canalplus4&pc=TariqVideoLiveTest^&ci=nlsnci1264&am=4&at=view&rt=banner&st=image&r=633878621"
+							}]
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27416578&reid=10697875&arid=2&auid=&cn=defaultClick&et=c&_cc=&tpos=50&cr=",
+							"name": "defaultClick",
+							"type": "CLICK",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}],
+						"adId": "27416578",
+						"creativeId": "3734981",
+						"replicaId": "2",
+						"networkId": "383480",
+						"creativeRenditionId": "10697875",
+						"companionAds": [],
+						"fallbackAds": []
+					}, {
+						"eventCallbacks": [{
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27474458&reid=11507069&arid=2&iw=&uxnw=&uxss=&uxct=",
+							"type": "GENERIC",
+							"use": "BASE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27474458&reid=11507069&arid=2&auid=&cn=defaultImpression&et=i&_cc=27474458,11507069,,,1537817538,1&tpos=50&iw=&uxnw=&uxss=&uxct=&init=1&pingids=422&cr=",
+							"name": "defaultImpression",
+							"type": "IMPRESSION",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": [{
+								"name": "Test Canal",
+								"value": "https:\/\/secure-gl.imrworldwide.com\/cgi-bin\/m?ca=nlsn108882&cr=creative&ce=canalplus4&pc=TariqVideoLiveTest^&ci=nlsnci1264&am=4&at=view&rt=banner&st=image&r=1126047595"
+							}]
+						}, {
+							"url": "http:\/\/5d9f8.v.fwmrm.net\/ad\/l\/1?s=d036&n=383480%3B383480&t=1537817538300932007&f=&r=383480&adid=27474458&reid=11507069&arid=2&auid=&cn=defaultClick&et=c&_cc=&tpos=50&cr=",
+							"name": "defaultClick",
+							"type": "CLICK",
+							"use": "OVERRIDE",
+							"showBrowser": false,
+							"trackingUrls": []
+						}],
+						"adId": "27474458",
+						"creativeId": "3920226",
+						"replicaId": "2",
+						"networkId": "383480",
+						"creativeRenditionId": "11507069",
+						"companionAds": [],
+						"fallbackAds": []
+					}],
+					"timePosition": "50",
+					"timePositionClass": "midroll",
+					"adUnit": "midroll"
+				}]
+			},
+			"adSlots": []
+		},
+		"adSlots": []
+	}
+});
