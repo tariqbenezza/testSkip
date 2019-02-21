@@ -18,7 +18,7 @@ tv.freewheel.DemoPlayer = function() {
 	this.adManager = new tv.freewheel.SDK.AdManager();
 	// Please contact your FreeWheel solution engineer for the values for your network.
 	this.adManager.setNetwork(383480);
-	this.adManager.setServer("http://5d9f8.v.fwmrm.net/ad/g/1");
+	this.adManager.setServer("https://5d9f8.v.fwmrm.net/ad/g/1");
 	/* Ad ad context object should be created for each ad request and all ad playback related.
 	When a new video starts, the current ad context object should be destroyed and a new one should
 	be created to handle the next lifecycle.
@@ -114,7 +114,6 @@ tv.freewheel.DemoPlayer.prototype = {
 			console.log("**********************************");
 			if(evt.adInstance._creative._parameters.skippable=="true" && evt.adInstance._creative._parameters.skipAppears!=undefined){
 				skipAppears=parseInt(evt.adInstance._creative._parameters.skipAppears)*1000;
-				console.log(skipAppears);
 				setTimeout(function(){displaySkipButton();}, skipAppears);
 			}
 		}
